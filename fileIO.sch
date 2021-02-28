@@ -1,0 +1,405 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 5 8
+Title "Orange Cart"
+Date "2021-02-28"
+Rev "r0.1"
+Comment1 ""
+Comment2 "Licensed under CERN OHL v.1.2"
+Comment3 "Cartridge version redesign: Marcus Comstedt"
+Comment4 "Based on Orange Crab by Gregory Davill"
+$EndDescr
+Text Notes 8700 750  0    50   ~ 0
+USER LEDS
+Text Notes 1400 2500 0    50   ~ 0
+USB input
+Text GLabel 3650 3050 2    50   UnSpc ~ 0
+USB_D+
+Text GLabel 3650 3150 2    50   UnSpc ~ 0
+USB_D-
+Wire Wire Line
+	1550 3450 1550 3550
+Wire Wire Line
+	1550 3550 1450 3550
+Wire Wire Line
+	1450 3550 1450 3700
+Wire Wire Line
+	1450 3450 1450 3550
+Connection ~ 1450 3550
+$Comp
+L gkl_power:GND #PWR?
+U 1 1 5D4CCC72
+P 1450 3700
+AR Path="/5D1738DB/5D4CCC72" Ref="#PWR?"  Part="1" 
+AR Path="/5ABC9A87/5D4CCC72" Ref="#PWR0121"  Part="1" 
+F 0 "#PWR0121" H 1450 3450 50  0001 C CNN
+F 1 "GND" H 1453 3574 50  0000 C CNN
+F 2 "" H 1350 3350 50  0001 C CNN
+F 3 "" H 1450 3700 50  0001 C CNN
+	1    1450 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:USB_B_Micro J?
+U 1 1 5D4CCC78
+P 1550 3050
+AR Path="/5D1738DB/5D4CCC78" Ref="J?"  Part="1" 
+AR Path="/5ABC9A87/5D4CCC78" Ref="J3"  Part="1" 
+AR Path="/5D4CCC78" Ref="J3"  Part="1" 
+F 0 "J3" H 1607 3517 50  0000 C CNN
+F 1 "USB_B_Micro" H 1607 3426 50  0000 C CNN
+F 2 "Connector_USB:USB_Micro-B_Molex-105017-0001" H 1700 3000 50  0001 C CNN
+F 3 "~" H 1700 3000 50  0001 C CNN
+F 4 "1050170001" H 1550 3050 50  0001 C CNN "PN"
+F 5 "Molex" H 1550 3050 50  0001 C CNN "Mfg"
+	1    1550 3050
+	1    0    0    -1  
+$EndComp
+Text GLabel 3400 2850 2    50   UnSpc ~ 0
+USB_PULLUP
+$Comp
+L Device:R R20
+U 1 1 5D4D2223
+P 3150 2850
+F 0 "R20" V 3357 2850 50  0000 C CNN
+F 1 "1.5k" V 3266 2850 50  0000 C CNN
+F 2 "Resistor_SMD:R_0201_0603Metric" V 3080 2850 50  0001 C CNN
+F 3 "~" H 3150 2850 50  0001 C CNN
+F 4 "‎Yageo‎" H 3150 2850 50  0001 C CNN "Mfg"
+F 5 "RC0201FR-071K5L" H 3150 2850 50  0001 C CNN "PN"
+	1    3150 2850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3000 2850 2900 2850
+Wire Wire Line
+	2900 2850 2900 3050
+Wire Wire Line
+	3300 2850 3400 2850
+Wire Wire Line
+	1850 2850 1950 2850
+Wire Wire Line
+	1950 2850 1950 2500
+Wire Wire Line
+	1950 2500 2500 2500
+Text GLabel 2500 2500 2    50   UnSpc ~ 0
+PUSB_VBUS
+$Comp
+L Device:LED_ARGB D1
+U 1 1 5D7004F0
+P 8900 1350
+F 0 "D1" H 8900 1847 50  0000 C CNN
+F 1 "LED_ARGB" H 8900 1756 50  0000 C CNN
+F 2 "gkl_led:0404LED_RGB" H 8900 1300 50  0001 C CNN
+F 3 "~" H 8900 1300 50  0001 C CNN
+F 4 " ‎Wurth Electronics Inc.‎" H 8900 1350 50  0001 C CNN "Mfg"
+F 5 "150044M155260" H 8900 1350 50  0001 C CNN "PN"
+	1    8900 1350
+	1    0    0    -1  
+$EndComp
+Text GLabel 9300 1350 2    50   UnSpc ~ 0
+P3.3V
+Wire Wire Line
+	9300 1350 9100 1350
+$Comp
+L Device:R R22
+U 1 1 5D7076CF
+P 8450 1150
+F 0 "R22" V 8550 1300 50  0000 C CNN
+F 1 "1.5k" V 8550 1000 50  0000 C CNN
+F 2 "Resistor_SMD:R_0201_0603Metric" V 8380 1150 50  0001 C CNN
+F 3 "~" H 8450 1150 50  0001 C CNN
+F 4 "‎Yageo‎" H 8450 1150 50  0001 C CNN "Mfg"
+F 5 "RC0201FR-071K5L" H 8450 1150 50  0001 C CNN "PN"
+	1    8450 1150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R23
+U 1 1 5D707E5D
+P 8450 1350
+F 0 "R23" V 8550 1500 50  0000 C CNN
+F 1 "4.7k" V 8550 1200 50  0000 C CNN
+F 2 "Resistor_SMD:R_0201_0603Metric" V 8380 1350 50  0001 C CNN
+F 3 "~" H 8450 1350 50  0001 C CNN
+F 4 "‎Yageo‎" H 8450 1350 50  0001 C CNN "Mfg"
+F 5 "RC0201FR-074K7L" H 8450 1350 50  0001 C CNN "PN"
+	1    8450 1350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R24
+U 1 1 5D708585
+P 8450 1550
+F 0 "R24" V 8550 1700 50  0000 C CNN
+F 1 "3.57k" V 8550 1400 50  0000 C CNN
+F 2 "Resistor_SMD:R_0201_0603Metric" V 8380 1550 50  0001 C CNN
+F 3 "~" H 8450 1550 50  0001 C CNN
+F 4 "‎Yageo‎" H 8450 1550 50  0001 C CNN "Mfg"
+F 5 "RC0201FR-073K57L" H 8450 1550 50  0001 C CNN "PN"
+	1    8450 1550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8600 1150 8700 1150
+Wire Wire Line
+	8700 1350 8600 1350
+Wire Wire Line
+	8600 1550 8700 1550
+Wire Wire Line
+	8300 1150 8100 1150
+Wire Wire Line
+	8300 1350 8100 1350
+Wire Wire Line
+	8300 1550 8100 1550
+Text GLabel 8100 1150 0    50   UnSpc ~ 0
+LED_R
+Text GLabel 8100 1350 0    50   UnSpc ~ 0
+LED_G
+Text GLabel 8100 1550 0    50   UnSpc ~ 0
+LED_B
+$Comp
+L Switch:SW_Push SW1
+U 1 1 5D7F3047
+P 5250 1750
+F 0 "SW1" H 5250 2035 50  0000 C CNN
+F 1 "SW_Push" H 5250 1944 50  0000 C CNN
+F 2 "gkl_misc:PTS_810_SMT_Switch" H 5250 1950 50  0001 C CNN
+F 3 "~" H 5250 1950 50  0001 C CNN
+F 4 "PTS810 SJM 250 SMTR LFS" H 5250 1750 50  0001 C CNN "PN"
+F 5 "C&K" H 5250 1750 50  0001 C CNN "Mfg"
+	1    5250 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R4
+U 1 1 5D7F3DC4
+P 5700 1500
+F 0 "R4" H 5770 1546 50  0000 L CNN
+F 1 "4.7k" H 5770 1455 50  0000 L CNN
+F 2 "Resistor_SMD:R_0201_0603Metric" V 5630 1500 50  0001 C CNN
+F 3 "~" H 5700 1500 50  0001 C CNN
+F 4 "‎Yageo‎" H 5700 1500 50  0001 C CNN "Mfg"
+F 5 "RC0201FR-074K7L" H 5700 1500 50  0001 C CNN "PN"
+	1    5700 1500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5700 1650 5700 1750
+Wire Wire Line
+	5700 1750 5450 1750
+Wire Wire Line
+	5700 1750 5850 1750
+Connection ~ 5700 1750
+Text GLabel 6100 1750 2    50   Input ~ 0
+USER_BUTTON
+$Comp
+L gkl_power:GND #PWR0164
+U 1 1 5D7FF781
+P 4950 1850
+F 0 "#PWR0164" H 4950 1600 50  0001 C CNN
+F 1 "GND" H 4953 1724 50  0000 C CNN
+F 2 "" H 4850 1500 50  0001 C CNN
+F 3 "" H 4950 1850 50  0001 C CNN
+	1    4950 1850
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	4950 1850 4950 1750
+Wire Wire Line
+	4950 1750 5050 1750
+$Comp
+L Device:C C76
+U 1 1 5D804039
+P 5850 1950
+F 0 "C76" H 5736 1996 50  0000 R CNN
+F 1 "10nF" H 5736 1905 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0201_0603Metric" H 5888 1800 50  0001 C CNN
+F 3 "~" H 5850 1950 50  0001 C CNN
+F 4 "Samsung Electro-Mechanics" H 5850 1950 50  0001 C CNN "Mfg"
+F 5 "CL03B103KP3NNNC" H 5850 1950 50  0001 C CNN "PN"
+	1    5850 1950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5850 1750 5850 1800
+Connection ~ 5850 1750
+Wire Wire Line
+	5850 1750 6100 1750
+Wire Wire Line
+	5850 2100 5850 2150
+$Comp
+L gkl_power:GND #PWR0165
+U 1 1 5D81735E
+P 5850 2150
+F 0 "#PWR0165" H 5850 1900 50  0001 C CNN
+F 1 "GND" H 5853 2024 50  0000 C CNN
+F 2 "" H 5750 1800 50  0001 C CNN
+F 3 "" H 5850 2150 50  0001 C CNN
+	1    5850 2150
+	-1   0    0    -1  
+$EndComp
+Text GLabel 1800 6800 2    50   Input ~ 0
+EXT_PLL+
+Text GLabel 1800 6900 2    50   Input ~ 0
+EXT_PLL-
+$Comp
+L Connector:TestPoint_Flag TP19
+U 1 1 5E3DC451
+P 1550 6800
+F 0 "TP19" H 2000 6850 50  0000 R CNN
+F 1 "SMD_TP" H 1506 6803 50  0001 R CNN
+F 2 "gkl_misc:TestPoint_Pad_D0.5mm" H 1750 6800 50  0001 C CNN
+F 3 "~" H 1750 6800 50  0001 C CNN
+	1    1550 6800
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	1800 6800 1550 6800
+$Comp
+L Connector:TestPoint_Flag TP20
+U 1 1 5E3DC45C
+P 1550 6900
+F 0 "TP20" H 2000 6950 50  0000 R CNN
+F 1 "SMD_TP" H 1506 6903 50  0001 R CNN
+F 2 "gkl_misc:TestPoint_Pad_D0.5mm" H 1750 6900 50  0001 C CNN
+F 3 "~" H 1750 6900 50  0001 C CNN
+	1    1550 6900
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	1800 6900 1550 6900
+$Comp
+L Connector:TestPoint_Flag TP26
+U 1 1 5D3F9EEC
+P 1750 5550
+F 0 "TP26" H 2200 5600 50  0000 R CNN
+F 1 "SMD_TP" H 1706 5553 50  0001 R CNN
+F 2 "gkl_misc:TestPoint_Pad_D0.5mm" H 1950 5550 50  0001 C CNN
+F 3 "~" H 1950 5550 50  0001 C CNN
+	1    1750 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint_Flag TP27
+U 1 1 5D3FA2AF
+P 1750 5650
+F 0 "TP27" H 2200 5700 50  0000 R CNN
+F 1 "SMD_TP" H 1706 5653 50  0001 R CNN
+F 2 "gkl_misc:TestPoint_Pad_D0.5mm" H 1950 5650 50  0001 C CNN
+F 3 "~" H 1950 5650 50  0001 C CNN
+	1    1750 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint_Flag TP31
+U 1 1 5D41439B
+P 1750 6300
+F 0 "TP31" H 2200 6350 50  0000 R CNN
+F 1 "SMD_TP" H 1706 6303 50  0001 R CNN
+F 2 "gkl_misc:TestPoint_Pad_D0.5mm" H 1950 6300 50  0001 C CNN
+F 3 "~" H 1950 6300 50  0001 C CNN
+	1    1750 6300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint_Flag TP32
+U 1 1 5D4143A5
+P 1750 6400
+F 0 "TP32" H 2200 6450 50  0000 R CNN
+F 1 "SMD_TP" H 1706 6403 50  0001 R CNN
+F 2 "gkl_misc:TestPoint_Pad_D0.5mm" H 1950 6400 50  0001 C CNN
+F 3 "~" H 1950 6400 50  0001 C CNN
+	1    1750 6400
+	1    0    0    -1  
+$EndComp
+Text GLabel 1750 6100 0    50   UnSpc ~ 0
+P3.3V
+$Comp
+L Connector:TestPoint_Flag TP30
+U 1 1 5D419CCA
+P 1750 6200
+F 0 "TP30" H 2200 6250 50  0000 R CNN
+F 1 "SMD_TP" H 1706 6203 50  0001 R CNN
+F 2 "gkl_misc:TestPoint_Pad_D0.5mm" H 1950 6200 50  0001 C CNN
+F 3 "~" H 1950 6200 50  0001 C CNN
+	1    1750 6200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint_Flag TP29
+U 1 1 5D41EE81
+P 1750 6100
+F 0 "TP29" H 2200 6150 50  0000 R CNN
+F 1 "SMD_TP" H 1706 6103 50  0001 R CNN
+F 2 "gkl_misc:TestPoint_Pad_D0.5mm" H 1950 6100 50  0001 C CNN
+F 3 "~" H 1950 6100 50  0001 C CNN
+	1    1750 6100
+	1    0    0    -1  
+$EndComp
+Text GLabel 1750 6200 0    50   UnSpc ~ 0
+P2.5V
+Text GLabel 1750 6400 0    50   UnSpc ~ 0
+P1.1V
+$Comp
+L Device:R R21
+U 1 1 5DEC8B60
+P 2450 3050
+F 0 "R21" V 2657 3050 50  0000 C CNN
+F 1 "20R" V 2566 3050 50  0000 C CNN
+F 2 "Resistor_SMD:R_0201_0603Metric" V 2380 3050 50  0001 C CNN
+F 3 "~" H 2450 3050 50  0001 C CNN
+F 4 "‎Yageo‎" H 2450 3050 50  0001 C CNN "Mfg"
+F 5 "RC0201FR-0720RL" H 2450 3050 50  0001 C CNN "PN"
+	1    2450 3050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R29
+U 1 1 5DECD575
+P 2450 3150
+F 0 "R29" V 2657 3150 50  0000 C CNN
+F 1 "20R" V 2566 3150 50  0000 C CNN
+F 2 "Resistor_SMD:R_0201_0603Metric" V 2380 3150 50  0001 C CNN
+F 3 "~" H 2450 3150 50  0001 C CNN
+F 4 "‎Yageo‎" H 2450 3150 50  0001 C CNN "Mfg"
+F 5 "RC0201FR-0720RL" H 2450 3150 50  0001 C CNN "PN"
+	1    2450 3150
+	0    1    1    0   
+$EndComp
+Connection ~ 2900 3050
+Wire Wire Line
+	1850 3050 2300 3050
+Wire Wire Line
+	2600 3050 2900 3050
+Wire Wire Line
+	2300 3150 1850 3150
+Wire Wire Line
+	2600 3150 3650 3150
+Wire Wire Line
+	2900 3050 3650 3050
+Text Label 1900 3050 0    50   ~ 0
+_USB_D_P
+Text Label 1900 3150 0    50   ~ 0
+_USB_D_N
+Text Label 1300 5550 0    50   ~ 0
+_USB_D_P
+Text Label 1300 5650 0    50   ~ 0
+_USB_D_N
+Wire Wire Line
+	1750 5550 1300 5550
+Wire Wire Line
+	1300 5650 1750 5650
+Text GLabel 5600 1150 0    50   UnSpc ~ 0
+P1.8V
+Wire Wire Line
+	5600 1150 5700 1150
+Wire Wire Line
+	5700 1150 5700 1350
+Text GLabel 1750 6300 0    50   UnSpc ~ 0
+P1.8V
+NoConn ~ 1850 3250
+$EndSCHEMATC
