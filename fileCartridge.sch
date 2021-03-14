@@ -3,10 +3,11 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 8 8
+Sheet 8 9
 Title "Orange Cart"
 Date "2021-02-28"
 Rev "r0.1"
+Comp ""
 Comment1 ""
 Comment2 "Licensed under CERN OHL v.1.2"
 Comment3 "Cartridge version redesign: Marcus Comstedt"
@@ -21,17 +22,6 @@ F 1 "CARTRIDGE_C64" H 10000 1350 50  0001 C CNN
 F 2 "icomp:CARTRIDGE_C64_GERMAN" H 10000 1350 50  0001 C CNN
 F 3 "" H 10000 1350 50  0001 C CNN
 	1    10000 1350
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR02
-U 1 1 60103615
-P 9900 3300
-F 0 "#PWR02" H 9900 3050 50  0001 C CNN
-F 1 "GND" H 9903 3174 50  0000 C CNN
-F 2 "" H 9800 2950 50  0001 C CNN
-F 3 "" H 9900 3300 50  0001 C CNN
-	1    9900 3300
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -67,19 +57,6 @@ Wire Wire Line
 Text GLabel 10150 2000 2    50   UnSpc ~ 0
 P5.0V
 $Comp
-L buffers:SN74AVC8T245PW U9
-U 1 1 5E417FDE
-P 2250 2450
-F 0 "U9" H 1900 1800 50  0000 C CNN
-F 1 "SN74LVC8T245" V 2250 2400 39  0000 C CNN
-F 2 "Package_SO:TSSOP-24_4.4x7.8mm_P0.65mm" H 3150 1800 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/sn74lvc8t245.pdf" H 2200 2200 50  0001 C CNN
-F 4 "595-SN74LVC8T245PWR" H 2250 2450 50  0001 C CNN "Mouser Part No"
-F 5 "0.92" H 2250 2450 50  0001 C CNN "Pricing (EUR)"
-	1    2250 2450
-	1    0    0    -1  
-$EndComp
-$Comp
 L buffers:SN74AVC8T245PW U14
 U 1 1 5E417FE4
 P 7650 2950
@@ -91,17 +68,6 @@ F 4 "595-SN74LVC8T245PWR" H 7650 2950 50  0001 C CNN "Mouser Part No"
 F 5 "0.92" H 7650 2950 50  0001 C CNN "Pricing (EUR)"
 	1    7650 2950
 	-1   0    0    1   
-$EndComp
-$Comp
-L power:GND #PWR03
-U 1 1 5E418016
-P 2250 3200
-F 0 "#PWR03" H 2250 2950 50  0001 C CNN
-F 1 "GND" H 2255 3027 50  0000 C CNN
-F 2 "" H 2250 3200 50  0001 C CNN
-F 3 "" H 2250 3200 50  0001 C CNN
-	1    2250 3200
-	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR08
@@ -179,25 +145,9 @@ Entry Wire Line
 Entry Wire Line
 	6800 3250 6900 3150
 Wire Wire Line
-	3200 2250 2750 2250
-Wire Wire Line
-	2750 2950 3200 2950
-Wire Wire Line
 	4400 3250 4850 3250
 Wire Wire Line
 	4400 3950 4850 3950
-Wire Wire Line
-	2750 2350 3200 2350
-Wire Wire Line
-	2750 2450 3200 2450
-Wire Wire Line
-	2750 2550 3200 2550
-Wire Wire Line
-	2750 2650 3200 2650
-Wire Wire Line
-	2750 2750 3200 2750
-Wire Wire Line
-	2750 2850 3200 2850
 Wire Wire Line
 	4400 3350 4850 3350
 Wire Wire Line
@@ -211,16 +161,16 @@ Wire Wire Line
 Wire Wire Line
 	4400 3850 4850 3850
 Wire Wire Line
-	2350 1850 2350 1800
+	1750 3350 1750 3400
 Wire Wire Line
-	2250 1850 2250 1800
+	1850 3350 1850 3400
 Wire Wire Line
-	2250 1800 2350 1800
-Connection ~ 2350 1800
+	1850 3400 1750 3400
+Connection ~ 1750 3400
 Wire Wire Line
 	4400 2250 4550 2250
 Wire Wire Line
-	4550 2250 4550 1350
+	4550 2250 4550 2000
 Wire Wire Line
 	6100 2450 6350 2450
 Wire Wire Line
@@ -270,27 +220,23 @@ Wire Wire Line
 Wire Wire Line
 	8150 3150 8400 3150
 Wire Wire Line
-	2150 1850 2150 1750
+	1650 3350 1650 3450
 Wire Wire Line
-	2750 2050 2800 2050
+	1250 3150 1000 3150
 Wire Wire Line
-	1750 2050 1500 2050
+	1250 2250 1000 2250
 Wire Wire Line
-	1750 2250 1500 2250
+	1250 2350 1000 2350
 Wire Wire Line
-	1750 2350 1500 2350
+	1250 2550 1000 2550
 Wire Wire Line
-	1750 2450 1500 2450
+	1250 2650 1000 2650
 Wire Wire Line
-	1750 2550 1500 2550
+	1250 2750 1000 2750
 Wire Wire Line
-	1750 2650 1500 2650
+	1250 2850 1000 2850
 Wire Wire Line
-	1750 2750 1500 2750
-Wire Wire Line
-	1750 2850 1500 2850
-Wire Wire Line
-	1750 2950 1500 2950
+	1250 2950 1000 2950
 Wire Wire Line
 	6100 3350 6300 3350
 Wire Wire Line
@@ -312,25 +258,25 @@ Text GLabel 1500 1350 0    50   Input ~ 0
 RESET_OUT
 Text GLabel 3150 6900 3    50   Input ~ 0
 NMI_OUT
-Text GLabel 1500 2250 0    50   BiDi ~ 0
-D0
-Text GLabel 1500 2350 0    50   BiDi ~ 0
+Text GLabel 1000 2250 0    50   BiDi ~ 0
 D1
-Text GLabel 1500 2450 0    50   BiDi ~ 0
-D2
-Text GLabel 1500 2550 0    50   BiDi ~ 0
+Text GLabel 1000 2350 0    50   BiDi ~ 0
+D0
+Text GLabel 1000 2450 0    50   BiDi ~ 0
 D3
-Text GLabel 1500 2650 0    50   BiDi ~ 0
-D4
-Text GLabel 1500 2750 0    50   BiDi ~ 0
+Text GLabel 1000 2550 0    50   BiDi ~ 0
+D2
+Text GLabel 1000 2650 0    50   BiDi ~ 0
 D5
-Text GLabel 1500 2850 0    50   BiDi ~ 0
-D6
-Text GLabel 1500 2950 0    50   BiDi ~ 0
+Text GLabel 1000 2750 0    50   BiDi ~ 0
+D4
+Text GLabel 1000 2850 0    50   BiDi ~ 0
 D7
-Text GLabel 1500 2050 0    50   Input ~ 0
+Text GLabel 1000 2950 0    50   BiDi ~ 0
+D6
+Text GLabel 1000 3150 0    50   Input ~ 0
 D_DIR
-Text GLabel 3000 2050 2    50   Input ~ 0
+Text GLabel 1100 3800 0    50   Input ~ 0
 D_~EN
 Text GLabel 1950 6900 3    50   Input ~ 0
 DMA
@@ -497,17 +443,6 @@ F 5 "0.04" H 9900 4100 50  0001 C CNN "Pricing (EUR)"
 	1    9900 4100
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:GND #PWR06
-U 1 1 5E6C08C0
-P 9900 4300
-F 0 "#PWR06" H 9900 4050 50  0001 C CNN
-F 1 "GND" H 9905 4127 50  0000 C CNN
-F 2 "" H 9900 4300 50  0001 C CNN
-F 3 "" H 9900 4300 50  0001 C CNN
-	1    9900 4300
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	9900 4250 9900 4300
 Wire Wire Line
@@ -528,20 +463,20 @@ $EndComp
 $Comp
 L Device:R R8
 U 1 1 5E8E0572
-P 3000 1850
-F 0 "R8" V 2793 1850 50  0000 C CNN
-F 1 "4.7k" V 2884 1850 50  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 2930 1850 50  0001 C CNN
-F 3 "~" H 3000 1850 50  0001 C CNN
-F 4 "603-RC0402JR-074K7L" H 3000 1850 50  0001 C CNN "Mouser Part No"
-F 5 "0,009" H 3000 1850 50  0001 C CNN "Pricing (EUR)"
-	1    3000 1850
-	0    -1   1    0   
+P 1100 3600
+F 0 "R8" V 893 3600 50  0000 C CNN
+F 1 "4.7k" V 984 3600 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 1030 3600 50  0001 C CNN
+F 3 "~" H 1100 3600 50  0001 C CNN
+F 4 "603-RC0402JR-074K7L" H 1100 3600 50  0001 C CNN "Mouser Part No"
+F 5 "0,009" H 1100 3600 50  0001 C CNN "Pricing (EUR)"
+	1    1100 3600
+	0    1    1    0   
 $EndComp
 Wire Wire Line
-	2850 1850 2800 1850
+	1250 3600 1300 3600
 Wire Wire Line
-	2800 1850 2800 2050
+	1300 3600 1300 3800
 Text GLabel 7250 4950 2    50   Output ~ 0
 RW_IN
 Text GLabel 7250 5300 2    50   Input ~ 0
@@ -665,11 +600,7 @@ Wire Wire Line
 Wire Wire Line
 	2450 4100 1100 4100
 Wire Wire Line
-	2450 3150 3200 3150
-Wire Wire Line
 	1100 4100 1100 5750
-Wire Wire Line
-	2250 3200 2250 3150
 $Comp
 L power:GND #PWR011
 U 1 1 5E4AFCEB
@@ -963,15 +894,13 @@ Text GLabel 7450 3650 0    50   UnSpc ~ 0
 P5.0V
 Text GLabel 5400 3650 0    50   UnSpc ~ 0
 P5.0V
-Text GLabel 2400 1600 2    50   UnSpc ~ 0
+Text GLabel 1800 3600 2    50   UnSpc ~ 0
 P5.0V
 Wire Wire Line
-	2400 1600 2350 1600
+	1750 3600 1750 3400
+Connection ~ 1300 3800
 Wire Wire Line
-	2350 1600 2350 1800
-Connection ~ 2800 2050
-Wire Wire Line
-	2800 2050 3000 2050
+	1300 3800 1100 3800
 $Comp
 L buffers:SN74AVC8T245PW U13
 U 1 1 5E417FFA
@@ -1124,13 +1053,13 @@ Wire Wire Line
 Text Label 9900 5050 0    50   ~ 0
 VCC
 Wire Wire Line
-	2150 1750 1900 1750
-Text Label 1900 1750 0    50   ~ 0
+	1650 3450 1400 3450
+Text Label 1400 3450 0    50   ~ 0
 VCC
-Text Label 3350 1850 2    50   ~ 0
+Text Label 750  3600 0    50   ~ 0
 VCC
 Wire Wire Line
-	3150 1850 3350 1850
+	950  3600 750  3600
 Text Label 5950 3650 2    50   ~ 0
 VCC
 Text Label 8000 3650 2    50   ~ 0
@@ -1167,6 +1096,249 @@ Wire Bus Line
 	6500 4050 6500 3650
 Wire Bus Line
 	6500 3650 6800 3650
+Text Label 2950 2250 0    50   ~ 0
+CD16
+Text Label 2950 2350 0    50   ~ 0
+CD17
+Text Label 2950 2450 0    50   ~ 0
+CD18
+Text Label 2950 2550 0    50   ~ 0
+CD19
+Text Label 2950 2650 0    50   ~ 0
+CD20
+Text Label 2950 2750 0    50   ~ 0
+CD21
+Text Label 2950 2850 0    50   ~ 0
+CD22
+Text Label 2950 2950 0    50   ~ 0
+CD23
+Text GLabel 10650 6250 2    50   BiDi ~ 0
+CD23
+Text GLabel 10650 6100 2    50   BiDi ~ 0
+CD22
+Text GLabel 10650 5950 2    50   BiDi ~ 0
+CD21
+Text GLabel 10650 5800 2    50   BiDi ~ 0
+CD20
+Text GLabel 9950 6250 2    50   BiDi ~ 0
+CD19
+Text GLabel 9950 6100 2    50   BiDi ~ 0
+CD18
+Text GLabel 9950 5950 2    50   BiDi ~ 0
+CD17
+Text GLabel 9950 5800 2    50   BiDi ~ 0
+CD16
+Wire Wire Line
+	10650 5800 10350 5800
+Wire Wire Line
+	10650 5950 10350 5950
+Wire Wire Line
+	10650 6100 10350 6100
+Wire Wire Line
+	10650 6250 10350 6250
+Text Label 10350 6250 0    50   ~ 0
+CD23
+Text Label 10350 6100 0    50   ~ 0
+CD22
+Text Label 10350 5950 0    50   ~ 0
+CD21
+Text Label 10350 5800 0    50   ~ 0
+CD20
+Text Label 9650 6250 0    50   ~ 0
+CD19
+Wire Wire Line
+	9650 6250 9950 6250
+Wire Wire Line
+	9950 6100 9650 6100
+Wire Wire Line
+	9950 5950 9650 5950
+Wire Wire Line
+	9950 5800 9650 5800
+Text Label 9650 6100 0    50   ~ 0
+CD18
+Text Label 9650 5950 0    50   ~ 0
+CD17
+Text Label 9650 5800 0    50   ~ 0
+CD16
+Text Label 4550 2450 0    50   ~ 0
+CA2
+Text Label 4550 2550 0    50   ~ 0
+CA3
+Text Label 4550 2650 0    50   ~ 0
+CA4
+Text Label 4550 2750 0    50   ~ 0
+CA5
+Text GLabel 9200 6250 2    50   BiDi ~ 0
+CA5
+Text GLabel 9200 6100 2    50   BiDi ~ 0
+CA4
+Text GLabel 9200 5950 2    50   BiDi ~ 0
+CA3
+Text GLabel 9200 5800 2    50   BiDi ~ 0
+CA2
+Text Label 8900 6250 0    50   ~ 0
+CA5
+Wire Wire Line
+	8900 6250 9200 6250
+Wire Wire Line
+	9200 6100 8900 6100
+Wire Wire Line
+	9200 5950 8900 5950
+Wire Wire Line
+	9200 5800 8900 5800
+Text Label 8900 6100 0    50   ~ 0
+CA4
+Text Label 8900 5950 0    50   ~ 0
+CA3
+Text Label 8900 5800 0    50   ~ 0
+CA2
+Text GLabel 4800 2000 2    50   BiDi ~ 0
+CRESET
+Wire Wire Line
+	4550 2000 4800 2000
+Connection ~ 4550 2000
+Wire Wire Line
+	4550 2000 4550 1350
+Text GLabel 9200 5600 2    50   BiDi ~ 0
+CINT6
+Wire Wire Line
+	9200 5600 8900 5600
+Text Label 8900 5600 0    50   ~ 0
+CINT6
+Text Label 3150 5300 1    50   ~ 0
+CINT6
+Wire Wire Line
+	1250 2450 1000 2450
+Wire Wire Line
+	2450 3150 3200 3150
+$Comp
+L buffers:SN74AVC8T245PW U9
+U 1 1 5E417FDE
+P 1750 2750
+F 0 "U9" H 1400 2100 50  0000 C CNN
+F 1 "SN74LVC8T245" V 1750 2700 39  0000 C CNN
+F 2 "Package_SO:TSSOP-24_4.4x7.8mm_P0.65mm" H 2650 2100 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74lvc8t245.pdf" H 1700 2500 50  0001 C CNN
+F 4 "595-SN74LVC8T245PWR" H 1750 2750 50  0001 C CNN "Mouser Part No"
+F 5 "0.92" H 1750 2750 50  0001 C CNN "Pricing (EUR)"
+	1    1750 2750
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	1900 1900 1900 1850
+$Comp
+L power:GND #PWR03
+U 1 1 5E418016
+P 1900 1900
+F 0 "#PWR03" H 1900 1650 50  0001 C CNN
+F 1 "GND" H 1905 1727 50  0000 C CNN
+F 2 "" H 1900 1900 50  0001 C CNN
+F 3 "" H 1900 1900 50  0001 C CNN
+	1    1900 1900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1750 3600 1800 3600
+Wire Wire Line
+	1900 1850 1750 1850
+Wire Wire Line
+	1750 1850 1750 2050
+Wire Wire Line
+	2300 3800 2300 3150
+Wire Wire Line
+	2300 3150 2250 3150
+Wire Wire Line
+	1300 3800 2300 3800
+Wire Wire Line
+	3200 2250 2600 2250
+Wire Wire Line
+	2600 2250 2600 2350
+Wire Wire Line
+	2600 2350 2250 2350
+Wire Wire Line
+	3200 2350 2800 2350
+Wire Wire Line
+	2800 2350 2800 2300
+Wire Wire Line
+	2800 2300 2450 2300
+Wire Wire Line
+	2450 2300 2450 2250
+Wire Wire Line
+	2450 2250 2250 2250
+Wire Wire Line
+	3200 2450 2600 2450
+Wire Wire Line
+	2600 2450 2600 2550
+Wire Wire Line
+	2600 2550 2250 2550
+Wire Wire Line
+	3200 2550 2800 2550
+Wire Wire Line
+	2800 2550 2800 2500
+Wire Wire Line
+	2800 2500 2450 2500
+Wire Wire Line
+	2450 2500 2450 2450
+Wire Wire Line
+	2450 2450 2250 2450
+Wire Wire Line
+	3200 2650 2600 2650
+Wire Wire Line
+	2600 2650 2600 2750
+Wire Wire Line
+	2600 2750 2250 2750
+Wire Wire Line
+	3200 2750 2800 2750
+Wire Wire Line
+	2800 2750 2800 2700
+Wire Wire Line
+	2800 2700 2450 2700
+Wire Wire Line
+	2450 2700 2450 2650
+Wire Wire Line
+	2450 2650 2250 2650
+Wire Wire Line
+	3200 2850 2600 2850
+Wire Wire Line
+	2600 2850 2600 2950
+Wire Wire Line
+	2600 2950 2250 2950
+Wire Wire Line
+	3200 2950 2800 2950
+Wire Wire Line
+	2800 2950 2800 2900
+Wire Wire Line
+	2800 2900 2450 2900
+Wire Wire Line
+	2450 2900 2450 2850
+Wire Wire Line
+	2450 2850 2250 2850
+$Comp
+L gkl_power:GND #PWR?
+U 1 1 6097B61F
+P 9900 3300
+AR Path="/5AB8ACB7/6097B61F" Ref="#PWR?"  Part="1" 
+AR Path="/600FA0A1/6097B61F" Ref="#PWR0103"  Part="1" 
+F 0 "#PWR0103" H 9900 3050 50  0001 C CNN
+F 1 "GND" H 9903 3174 50  0000 C CNN
+F 2 "" H 9800 2950 50  0001 C CNN
+F 3 "" H 9900 3300 50  0001 C CNN
+	1    9900 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L gkl_power:GND #PWR?
+U 1 1 6098D77D
+P 9900 4300
+AR Path="/5AB8ACB7/6098D77D" Ref="#PWR?"  Part="1" 
+AR Path="/600FA0A1/6098D77D" Ref="#PWR0108"  Part="1" 
+F 0 "#PWR0108" H 9900 4050 50  0001 C CNN
+F 1 "GND" H 9903 4174 50  0000 C CNN
+F 2 "" H 9800 3950 50  0001 C CNN
+F 3 "" H 9900 4300 50  0001 C CNN
+	1    9900 4300
+	1    0    0    -1  
+$EndComp
 Wire Bus Line
 	4950 3350 4950 4050
 Wire Bus Line

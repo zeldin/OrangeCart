@@ -3,10 +3,11 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 8
+Sheet 1 9
 Title "Orange Cart"
 Date "2021-02-28"
 Rev "r0.1"
+Comp ""
 Comment1 ""
 Comment2 "Licensed under CERN OHL v.1.2"
 Comment3 "Cartridge version redesign: Marcus Comstedt"
@@ -119,5 +120,11 @@ S 1800 5600 1800 1000
 U 600FA0A1
 F0 "sheetCartridge" 50
 F1 "fileCartridge.sch" 50
+$EndSheet
+$Sheet
+S 4100 5650 1750 950 
+U 604D5E51
+F0 "SheetClockport" 50
+F1 "fileClockport.sch" 50
 $EndSheet
 $EndSCHEMATC

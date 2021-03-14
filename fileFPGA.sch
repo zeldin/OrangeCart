@@ -3,10 +3,11 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 8
+Sheet 2 9
 Title "Orange Cart"
 Date "2021-02-28"
 Rev "r0.1"
+Comp ""
 Comment1 ""
 Comment2 "Licensed under CERN OHL v.1.2"
 Comment3 "Cartridge version redesign: Marcus Comstedt"
@@ -402,18 +403,14 @@ Text GLabel 5700 7200 2    50   Input ~ 0
 USB_PULLUP
 Text GLabel 5700 7400 2    50   Input ~ 0
 USB_D+
-Text GLabel 1950 7250 2    50   Input ~ 0
+Text GLabel 1950 6850 2    50   Input ~ 0
 SD0_DAT0
-Text GLabel 3500 6850 2    50   Input ~ 0
-SD0_DAT1
 Text GLabel 1950 6750 2    50   Input ~ 0
 SD0_DAT2
 Text GLabel 1950 7050 2    50   Input ~ 0
 SD0_DAT3
 Text GLabel 1950 7150 2    50   Input ~ 0
 SD0_CMD
-Text GLabel 1950 6850 2    50   Input ~ 0
-SD0_CLK
 Text GLabel 1950 6950 2    50   Input ~ 0
 SD0_CD
 Text GLabel 5700 6400 2    50   Input ~ 0
@@ -681,21 +678,13 @@ D_~EN
 Text GLabel 5700 6600 2    50   Output ~ 0
 D_DIR
 Text GLabel 5700 7000 2    50   BiDi ~ 0
-D0
+D6
 Text GLabel 5700 6800 2    50   BiDi ~ 0
-D1
+D7
 Text GLabel 5700 6900 2    50   BiDi ~ 0
-D2
-Text GLabel 5700 5800 2    50   BiDi ~ 0
-D3
-Text GLabel 5700 5700 2    50   BiDi ~ 0
 D4
 Text GLabel 5700 6000 2    50   BiDi ~ 0
-D5
-Text GLabel 5700 5400 2    50   BiDi ~ 0
-D6
-Text GLabel 5700 5600 2    50   BiDi ~ 0
-D7
+D3
 Text GLabel 5700 5900 2    50   Output ~ 0
 DMA
 Text GLabel 5700 6200 2    50   BiDi ~ 0
@@ -748,9 +737,9 @@ Text GLabel 2000 1250 2    50   Output ~ 0
 RW_OUT
 Text GLabel 3500 7150 2    50   Output ~ 0
 IRQ_OUT
-Text GLabel 3500 7050 2    50   Output ~ 0
+Text GLabel 3500 7250 2    50   Output ~ 0
 NMI_OUT
-Text GLabel 3500 7250 2    50   Input ~ 0
+Text GLabel 3500 7050 2    50   Input ~ 0
 IO1
 Text GLabel 2000 1950 2    50   Output ~ 0
 EXROM
@@ -775,13 +764,9 @@ NoConn ~ 9300 1450
 NoConn ~ 9300 1950
 NoConn ~ 9300 2050
 NoConn ~ 9300 2350
-NoConn ~ 2000 3850
-NoConn ~ 2000 3950
-NoConn ~ 2000 4050
 NoConn ~ 2000 4150
 NoConn ~ 2000 4250
 NoConn ~ 2000 4350
-NoConn ~ 2000 4450
 NoConn ~ 2000 4550
 NoConn ~ 2000 4650
 NoConn ~ 2000 4750
@@ -794,4 +779,32 @@ NoConn ~ 2000 5350
 NoConn ~ 2000 5450
 NoConn ~ 2000 5550
 NoConn ~ 3500 6750
+Text GLabel 5700 5800 2    50   BiDi ~ 0
+D5
+Text GLabel 5700 5700 2    50   BiDi ~ 0
+D2
+Text GLabel 5700 5600 2    50   BiDi ~ 0
+D0
+Text GLabel 5700 5400 2    50   BiDi ~ 0
+D1
+Text GLabel 1950 7250 2    50   Input ~ 0
+SD0_DAT1
+Text GLabel 3500 6850 2    50   Input ~ 0
+SD0_CLK
+Text GLabel 2100 3850 2    50   BiDi ~ 0
+CSPARECS
+Text GLabel 2100 3950 2    50   BiDi ~ 0
+CRTCCS
+Text GLabel 2100 4050 2    50   BiDi ~ 0
+CIOWR
+Text GLabel 2100 4450 2    50   BiDi ~ 0
+CIORD
+Wire Wire Line
+	2000 3850 2100 3850
+Wire Wire Line
+	2000 3950 2100 3950
+Wire Wire Line
+	2000 4050 2100 4050
+Wire Wire Line
+	2000 4450 2100 4450
 $EndSCHEMATC

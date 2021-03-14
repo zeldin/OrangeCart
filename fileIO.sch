@@ -3,10 +3,11 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 8
+Sheet 5 9
 Title "Orange Cart"
 Date "2021-02-28"
 Rev "r0.1"
+Comp ""
 Comment1 ""
 Comment2 "Licensed under CERN OHL v.1.2"
 Comment3 "Cartridge version redesign: Marcus Comstedt"
