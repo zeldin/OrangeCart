@@ -405,11 +405,11 @@ Text GLabel 5700 7400 2    50   Input ~ 0
 USB_D+
 Text GLabel 1950 6850 2    50   Input ~ 0
 SD0_DAT0
-Text GLabel 1950 6750 2    50   Input ~ 0
-SD0_DAT2
-Text GLabel 1950 7050 2    50   Input ~ 0
-SD0_DAT3
 Text GLabel 1950 7150 2    50   Input ~ 0
+SD0_DAT2
+Text GLabel 1950 6750 2    50   Input ~ 0
+SD0_DAT3
+Text GLabel 3500 6850 2    50   Input ~ 0
 SD0_CMD
 Text GLabel 1950 6950 2    50   Input ~ 0
 SD0_CD
@@ -789,7 +789,7 @@ Text GLabel 5700 5400 2    50   BiDi ~ 0
 D1
 Text GLabel 1950 7250 2    50   Input ~ 0
 SD0_DAT1
-Text GLabel 3500 6850 2    50   Input ~ 0
+Text GLabel 1950 7050 2    50   Input ~ 0
 SD0_CLK
 Text GLabel 2100 3850 2    50   BiDi ~ 0
 CSPARECS
