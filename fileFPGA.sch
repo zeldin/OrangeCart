@@ -201,7 +201,7 @@ Text Notes 8250 900  0    50   ~ 0
 Text Notes 9850 1300 0    100  ~ 0
 QSPI Config
 Text Notes 3850 1050 0    50   ~ 0
-1V5\n
+1V8
 Text Notes 1300 6500 0    50   ~ 0
 3V3\n
 Text Notes 2850 6500 0    50   ~ 0
