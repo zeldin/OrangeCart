@@ -795,9 +795,9 @@ Text GLabel 2100 3850 2    50   BiDi ~ 0
 CSPARECS
 Text GLabel 2100 3950 2    50   BiDi ~ 0
 CRTCCS
-Text GLabel 2100 4050 2    50   BiDi ~ 0
-CIOWR
 Text GLabel 2100 4450 2    50   BiDi ~ 0
+CIOWR
+Text GLabel 2100 4050 2    50   BiDi ~ 0
 CIORD
 Wire Wire Line
 	2000 3850 2100 3850

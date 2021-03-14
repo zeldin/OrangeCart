@@ -123,4 +123,49 @@ F 3 "" H 3800 3650 50  0001 C CNN
 	1    3800 3650
 	1    0    0    -1  
 $EndComp
+$Comp
+L Device:R_Pack04 RN?
+U 1 1 604E371A
+P 6750 3100
+AR Path="/5ABD38F2/604E371A" Ref="RN?"  Part="1" 
+AR Path="/5AC0A2A0/604E371A" Ref="RN?"  Part="1" 
+AR Path="/604D5E51/604E371A" Ref="RN1"  Part="1" 
+F 0 "RN1" V 6450 3000 50  0000 C CNN
+F 1 "10K" V 6450 3250 50  0000 C CNN
+F 2 "Resistor_SMD:R_Array_Convex_4x0402" V 7025 3100 50  0001 C CNN
+F 3 "~" H 6750 3100 50  0001 C CNN
+F 4 "RAVF104DJT10K0" H 6750 3100 50  0001 C CNN "PN"
+F 5 "Stackpole Electronics Inc" H 6750 3100 50  0001 C CNN "Mfg"
+	1    6750 3100
+	1    0    0    -1  
+$EndComp
+Text GLabel 6250 2550 0    60   Input ~ 0
+P3.3V
+Wire Wire Line
+	6250 2550 6550 2550
+Wire Wire Line
+	6550 2550 6550 2900
+Wire Wire Line
+	6550 2550 6650 2550
+Wire Wire Line
+	6650 2550 6650 2900
+Connection ~ 6550 2550
+Wire Wire Line
+	6650 2550 6750 2550
+Wire Wire Line
+	6750 2550 6750 2900
+Connection ~ 6650 2550
+Wire Wire Line
+	6750 2550 6850 2550
+Wire Wire Line
+	6850 2550 6850 2900
+Connection ~ 6750 2550
+Text GLabel 6850 3300 3    50   BiDi ~ 0
+CSPARECS
+Text GLabel 6750 3300 3    50   BiDi ~ 0
+CRTCCS
+Text GLabel 6650 3300 3    50   BiDi ~ 0
+CIORD
+Text GLabel 6550 3300 3    50   BiDi ~ 0
+CIOWR
 $EndSCHEMATC
