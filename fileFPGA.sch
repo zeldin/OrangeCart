@@ -34,10 +34,12 @@ P 1950 6750
 F 0 "U3" H 2800 6950 60  0000 L CNN
 F 1 "LFE5U-25F-8MG285C" H 2150 6950 60  0000 L CNN
 F 2 "gkl_housings_bga:csBGA285" H 1950 6750 50  0001 C CNN
-F 3 "" H 1950 6750 50  0001 C CNN
+F 3 "http://www.latticesemi.com/-/media/LatticeSemi/Documents/DataSheets/ECP5/FPGA-DS-02012-1-9-ECP5-ECP5G-Family-Data-Sheet.ashx?document_id=50461" H 1950 6750 50  0001 C CNN
 F 4 "LFE5U-25F-8MG285C" H -600 5650 50  0001 C CNN "PN"
 F 5 " LFE5UM-25F-6MG285C-ND " H -600 5650 50  0001 C CNN "SN-DK"
 F 6 "Lattice Semiconductor Corporation" H 1950 6750 50  0001 C CNN "Mfg"
+F 7 "842-LFE5U25F8MG285C" H 1950 6750 50  0001 C CNN "Mouser Part No"
+F 8 "11,15" H 1950 6750 50  0001 C CNN "Pricing (EUR)"
 	1    1950 6750
 	-1   0    0    -1  
 $EndComp
@@ -48,10 +50,12 @@ P 3500 6750
 F 0 "U3" H 4350 6950 60  0000 L CNN
 F 1 "LFE5U-25F-8MG285C" H 3700 6950 60  0000 L CNN
 F 2 "gkl_housings_bga:csBGA285" H 3500 6750 50  0001 C CNN
-F 3 "" H 3500 6750 50  0001 C CNN
+F 3 "http://www.latticesemi.com/-/media/LatticeSemi/Documents/DataSheets/ECP5/FPGA-DS-02012-1-9-ECP5-ECP5G-Family-Data-Sheet.ashx?document_id=50461" H 3500 6750 50  0001 C CNN
 F 4 "LFE5U-25F-8MG285C" H 950 4550 50  0001 C CNN "PN"
 F 5 " LFE5UM-25F-6MG285C-ND " H 950 4550 50  0001 C CNN "SN-DK"
 F 6 "Lattice Semiconductor Corporation" H 3500 6750 50  0001 C CNN "Mfg"
+F 7 "842-LFE5U25F8MG285C" H 3500 6750 50  0001 C CNN "Mouser Part No"
+F 8 "11,15" H 3500 6750 50  0001 C CNN "Pricing (EUR)"
 	2    3500 6750
 	-1   0    0    -1  
 $EndComp
@@ -62,10 +66,12 @@ P 2000 1250
 F 0 "U3" H 2900 1450 60  0000 L CNN
 F 1 "LFE5U-25F-8MG285C" H 2200 1450 60  0000 L CNN
 F 2 "gkl_housings_bga:csBGA285" H 2000 1250 50  0001 C CNN
-F 3 "" H 2000 1250 50  0001 C CNN
+F 3 "http://www.latticesemi.com/-/media/LatticeSemi/Documents/DataSheets/ECP5/FPGA-DS-02012-1-9-ECP5-ECP5G-Family-Data-Sheet.ashx?document_id=50461" H 2000 1250 50  0001 C CNN
 F 4 "LFE5U-25F-8MG285C" H -550 -2000 50  0001 C CNN "PN"
 F 5 " LFE5UM-25F-6MG285C-ND " H -550 -2000 50  0001 C CNN "SN-DK"
 F 6 "Lattice Semiconductor Corporation" H 2000 1250 50  0001 C CNN "Mfg"
+F 7 "842-LFE5U25F8MG285C" H 2000 1250 50  0001 C CNN "Mouser Part No"
+F 8 "11,15" H 2000 1250 50  0001 C CNN "Pricing (EUR)"
 	3    2000 1250
 	-1   0    0    -1  
 $EndComp
@@ -76,10 +82,12 @@ P 5700 4700
 F 0 "U3" H 6800 4900 60  0000 L CNN
 F 1 "LFE5U-25F-8MG285C" H 5900 4900 60  0000 L CNN
 F 2 "gkl_housings_bga:csBGA285" H 5700 4700 50  0001 C CNN
-F 3 "" H 5700 4700 50  0001 C CNN
+F 3 "http://www.latticesemi.com/-/media/LatticeSemi/Documents/DataSheets/ECP5/FPGA-DS-02012-1-9-ECP5-ECP5G-Family-Data-Sheet.ashx?document_id=50461" H 5700 4700 50  0001 C CNN
 F 4 "LFE5U-25F-8MG285C" H 50  3450 50  0001 C CNN "PN"
 F 5 " LFE5UM-25F-6MG285C-ND " H 50  3450 50  0001 C CNN "SN-DK"
 F 6 "Lattice Semiconductor Corporation" H 5700 4700 50  0001 C CNN "Mfg"
+F 7 "842-LFE5U25F8MG285C" H 5700 4700 50  0001 C CNN "Mouser Part No"
+F 8 "11,15" H 5700 4700 50  0001 C CNN "Pricing (EUR)"
 	4    5700 4700
 	-1   0    0    -1  
 $EndComp
@@ -90,10 +98,12 @@ P 2000 3850
 F 0 "U3" H 2900 4050 60  0000 L CNN
 F 1 "LFE5U-25F-8MG285C" H 2200 4050 60  0000 L CNN
 F 2 "gkl_housings_bga:csBGA285" H 2000 3850 50  0001 C CNN
-F 3 "" H 2000 3850 50  0001 C CNN
+F 3 "http://www.latticesemi.com/-/media/LatticeSemi/Documents/DataSheets/ECP5/FPGA-DS-02012-1-9-ECP5-ECP5G-Family-Data-Sheet.ashx?document_id=50461" H 2000 3850 50  0001 C CNN
 F 4 "LFE5U-25F-8MG285C" H -550 -1900 50  0001 C CNN "PN"
 F 5 " LFE5UM-25F-6MG285C-ND " H -550 -1900 50  0001 C CNN "SN-DK"
 F 6 "Lattice Semiconductor Corporation" H 2000 3850 50  0001 C CNN "Mfg"
+F 7 "842-LFE5U25F8MG285C" H 2000 3850 50  0001 C CNN "Mouser Part No"
+F 8 "11,15" H 2000 3850 50  0001 C CNN "Pricing (EUR)"
 	6    2000 3850
 	-1   0    0    -1  
 $EndComp
@@ -104,10 +114,12 @@ P 9300 1150
 F 0 "U3" H 10900 1350 60  0000 L CNN
 F 1 "LFE5U-25F-8MG285C" H 9500 1350 60  0000 L CNN
 F 2 "gkl_housings_bga:csBGA285" H 9300 1150 50  0001 C CNN
-F 3 "" H 9300 1150 50  0001 C CNN
+F 3 "http://www.latticesemi.com/-/media/LatticeSemi/Documents/DataSheets/ECP5/FPGA-DS-02012-1-9-ECP5-ECP5G-Family-Data-Sheet.ashx?document_id=50461" H 9300 1150 50  0001 C CNN
 F 4 "LFE5U-25F-8MG285C" H 50  -100 50  0001 C CNN "PN"
 F 5 " LFE5UM-25F-6MG285C-ND " H 50  -100 50  0001 C CNN "SN-DK"
 F 6 "Lattice Semiconductor Corporation" H 9300 1150 50  0001 C CNN "Mfg"
+F 7 "842-LFE5U25F8MG285C" H 9300 1150 50  0001 C CNN "Mouser Part No"
+F 8 "11,15" H 9300 1150 50  0001 C CNN "Pricing (EUR)"
 	7    9300 1150
 	-1   0    0    -1  
 $EndComp
@@ -118,10 +130,12 @@ P 7800 3100
 F 0 "U3" H 8600 3300 60  0000 L CNN
 F 1 "LFE5U-25F-8MG285C" H 8000 3300 60  0000 L CNN
 F 2 "gkl_housings_bga:csBGA285" H 7800 3100 50  0001 C CNN
-F 3 "" H 7800 3100 50  0001 C CNN
+F 3 "http://www.latticesemi.com/-/media/LatticeSemi/Documents/DataSheets/ECP5/FPGA-DS-02012-1-9-ECP5-ECP5G-Family-Data-Sheet.ashx?document_id=50461" H 7800 3100 50  0001 C CNN
 F 4 "LFE5U-25F-8MG285C" H -1450 200 50  0001 C CNN "PN"
 F 5 " LFE5UM-25F-6MG285C-ND " H -1450 200 50  0001 C CNN "SN-DK"
 F 6 "Lattice Semiconductor Corporation" H 7800 3100 50  0001 C CNN "Mfg"
+F 7 "842-LFE5U25F8MG285C" H 7800 3100 50  0001 C CNN "Mouser Part No"
+F 8 "11,15" H 7800 3100 50  0001 C CNN "Pricing (EUR)"
 	8    7800 3100
 	-1   0    0    -1  
 $EndComp
@@ -132,10 +146,12 @@ P 10100 5800
 F 0 "U3" H 10495 4610 60  0000 C CNN
 F 1 "LFE5U-25F-8MG285C" H 10495 4716 60  0000 C CNN
 F 2 "gkl_housings_bga:csBGA285" H 10100 5800 50  0001 C CNN
-F 3 "" H 10100 5800 50  0001 C CNN
+F 3 "http://www.latticesemi.com/-/media/LatticeSemi/Documents/DataSheets/ECP5/FPGA-DS-02012-1-9-ECP5-ECP5G-Family-Data-Sheet.ashx?document_id=50461" H 10100 5800 50  0001 C CNN
 F 4 "LFE5U-25F-8MG285C" H 250 -100 50  0001 C CNN "PN"
 F 5 " LFE5UM-25F-6MG285C-ND " H 250 -100 50  0001 C CNN "SN-DK"
 F 6 "Lattice Semiconductor Corporation" H 10100 5800 50  0001 C CNN "Mfg"
+F 7 "842-LFE5U25F8MG285C" H 10100 5800 50  0001 C CNN "Mouser Part No"
+F 8 "11,15" H 10100 5800 50  0001 C CNN "Pricing (EUR)"
 	9    10100 5800
 	1    0    0    1   
 $EndComp
@@ -254,6 +270,8 @@ F 2 "Capacitor_SMD:C_0201_0603Metric" H 5688 2500 50  0001 C CNN
 F 3 "~" H 5650 2650 50  0001 C CNN
 F 4 "Samsung Electro-Mechanics" H 5650 2650 50  0001 C CNN "Mfg"
 F 5 "CL03B103KP3NNNC" H 5650 2650 50  0001 C CNN "PN"
+F 6 "187-CL03B103KP3NNNC" H 5650 2650 50  0001 C CNN "Mouser Part No"
+F 7 "0,11" H 5650 2650 50  0001 C CNN "Pricing (EUR)"
 	1    5650 2650
 	1    0    0    -1  
 $EndComp
@@ -267,6 +285,8 @@ F 2 "Capacitor_SMD:C_0201_0603Metric" H 5888 2500 50  0001 C CNN
 F 3 "~" H 5850 2650 50  0001 C CNN
 F 4 "Samsung Electro-Mechanics" H 5850 2650 50  0001 C CNN "Mfg"
 F 5 "CL03A104KQ3NNNC" H 5850 2650 50  0001 C CNN "PN"
+F 6 "187-CL03A104KQ3NNNC" H 5850 2650 50  0001 C CNN "Mouser Part No"
+F 7 "0,09" H 5850 2650 50  0001 C CNN "Pricing (EUR)"
 	1    5850 2650
 	1    0    0    -1  
 $EndComp
@@ -342,6 +362,8 @@ F 2 "gkl_conn:FTSH-105-XX-X-DV" H 10500 3750 50  0001 C CNN
 F 3 "~" H 10500 3750 50  0001 C CNN
 F 4 "FTSH-105-01-F-DV-K-TR" H 10500 3750 50  0001 C CNN "PN"
 F 5 "Samtec Inc." H 10500 3750 50  0001 C CNN "Mfg"
+F 6 "200-FTSH10501FDVKTR" H 10500 3750 50  0001 C CNN "Mouser Part No"
+F 7 "2,33" H 10500 3750 50  0001 C CNN "Pricing (EUR)"
 	1    10500 3750
 	-1   0    0    -1  
 $EndComp
@@ -429,6 +451,8 @@ F 2 "gkl_time:Oscilator_2.5x2.0" H 9800 3250 50  0001 C CNN
 F 3 "" H 9800 3250 50  0001 C CNN
 F 4 "KC2520B48.0000C10E00" H 9800 3000 50  0001 C CNN "PN"
 F 5 "Kyocera International Inc. Electronic Components" H 9800 3000 50  0001 C CNN "Mfg"
+F 6 "581-KC2520B48.0C10" H 9800 3000 50  0001 C CNN "Mouser Part No"
+F 7 "1,08" H 9800 3000 50  0001 C CNN "Pricing (EUR)"
 	1    9800 3000
 	1    0    0    -1  
 $EndComp
@@ -491,6 +515,8 @@ F 2 "Resistor_SMD:R_0201_0603Metric" V 8180 4400 50  0001 C CNN
 F 3 "~" H 8250 4400 50  0001 C CNN
 F 4 "‎Yageo‎" H 8250 4400 50  0001 C CNN "Mfg"
 F 5 "RC0201FR-074K7L" H 8250 4400 50  0001 C CNN "PN"
+F 6 "603-RC0201FR-074K7L" H 8250 4400 50  0001 C CNN "Mouser Part No"
+F 7 "0,11" H 8250 4400 50  0001 C CNN "Pricing (EUR)"
 	1    8250 4400
 	1    0    0    1   
 $EndComp
@@ -525,6 +551,8 @@ F 3 "" H 7950 6300 60  0001 C CNN
 F 4 "" H 3800 1900 50  0001 C CNN "SN-DK"
 F 5 "W25Q128JVPIQ TR" H 3800 1900 50  0001 C CNN "PN"
 F 6 "Winbond Electronics-" H 7950 5850 50  0001 C CNN "Mfg"
+F 7 "454-W25Q128JVPIQTR" H 7950 5850 50  0001 C CNN "Mouser Part No"
+F 8 "1,52" H 7950 5850 50  0001 C CNN "Pricing (EUR)"
 	1    7950 5850
 	1    0    0    -1  
 $EndComp
@@ -588,6 +616,8 @@ F 2 "Resistor_SMD:R_0201_0603Metric" V 7230 5350 50  0001 C CNN
 F 3 "~" H 7300 5350 50  0001 C CNN
 F 4 "‎Yageo‎" H 7300 5350 50  0001 C CNN "Mfg"
 F 5 "RC0201FR-074K7L" H 7300 5350 50  0001 C CNN "PN"
+F 6 "603-RC0201FR-074K7L" H 7300 5350 50  0001 C CNN "Mouser Part No"
+F 7 "0,11" H 7300 5350 50  0001 C CNN "Pricing (EUR)"
 	1    7300 5350
 	1    0    0    1   
 $EndComp
@@ -611,6 +641,8 @@ F 2 "Resistor_SMD:R_0201_0603Metric" V 7880 2900 50  0001 C CNN
 F 3 "~" H 7950 2900 50  0001 C CNN
 F 4 "‎Yageo‎" H 7950 2900 50  0001 C CNN "Mfg"
 F 5 "RC0201FR-071K5L" H 7950 2900 50  0001 C CNN "PN"
+F 6 "603-RC0201FR-071K5L / 667-ERJ-1GNF1501C" H 7950 2900 50  0001 C CNN "Mouser Part No"
+F 7 "0,11" H 7950 2900 50  0001 C CNN "Pricing (EUR)"
 	1    7950 2900
 	1    0    0    1   
 $EndComp
@@ -662,10 +694,12 @@ P 4650 1300
 F 0 "U3" H 5750 1500 60  0000 L CNN
 F 1 "LFE5U-25F-8MG285C" H 4850 1500 60  0000 L CNN
 F 2 "gkl_housings_bga:csBGA285" H 4650 1300 50  0001 C CNN
-F 3 "" H 4650 1300 50  0001 C CNN
+F 3 "http://www.latticesemi.com/-/media/LatticeSemi/Documents/DataSheets/ECP5/FPGA-DS-02012-1-9-ECP5-ECP5G-Family-Data-Sheet.ashx?document_id=50461" H 4650 1300 50  0001 C CNN
 F 4 "LFE5U-25F-8MG285C" H -1000 -3650 50  0001 C CNN "PN"
 F 5 " LFE5UM-25F-6MG285C-ND " H -1000 -3650 50  0001 C CNN "SN-DK"
 F 6 "Lattice Semiconductor Corporation" H 4650 1300 50  0001 C CNN "Mfg"
+F 7 "842-LFE5U25F8MG285C" H 4650 1300 50  0001 C CNN "Mouser Part No"
+F 8 "11,15" H 4650 1300 50  0001 C CNN "Pricing (EUR)"
 	5    4650 1300
 	-1   0    0    -1  
 $EndComp
