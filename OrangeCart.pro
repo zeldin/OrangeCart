@@ -1,4 +1,4 @@
-update=Sun 17 Jan 2021 18:40:06 CET
+update=Wed 19 May 2021 16:29:30
 version=1
 last_client=kicad
 [general]
@@ -33,7 +33,7 @@ AllowBlindVias=0
 RequireCourtyardDefinitions=0
 ProhibitOverlappingCourtyards=1
 MinTrackWidth=0.08889999999999999
-MinViaDiameter=0.23
+MinViaDiameter=0.35
 MinViaDrill=0.15
 MinMicroViaDiameter=0.2
 MinMicroViaDrill=0.09999999999999999
@@ -48,14 +48,12 @@ TrackWidth7=0.2
 TrackWidth8=0.25
 ViaDiameter1=0.6
 ViaDrill1=0.4
-ViaDiameter2=0.28
+ViaDiameter2=0.35
 ViaDrill2=0.15
-ViaDiameter3=0.3
-ViaDrill3=0.15
-ViaDiameter4=0.45
-ViaDrill4=0.2
-ViaDiameter5=0.53
-ViaDrill5=0.25
+ViaDiameter3=0.45
+ViaDrill3=0.2
+ViaDiameter4=0.53
+ViaDrill4=0.25
 dPairWidth1=0.2
 dPairGap1=0.25
 dPairViaGap1=0.25
@@ -255,7 +253,7 @@ Enabled=0
 [pcbnew/Netclasses]
 [pcbnew/Netclasses/Default]
 Name=Default
-Clearance=0.0889
+Clearance=0.0635
 TrackWidth=0.0889
 ViaDiameter=0.6
 ViaDrill=0.4
@@ -266,9 +264,9 @@ dPairGap=0.25
 dPairViaGap=0.25
 [pcbnew/Netclasses/1]
 Name=DDR3_CTRL_LM1.0
-Clearance=0.0889
+Clearance=0.0635
 TrackWidth=0.121
-ViaDiameter=0.28
+ViaDiameter=0.35
 ViaDrill=0.15
 uViaDiameter=0.25
 uViaDrill=0.15
@@ -277,7 +275,7 @@ dPairGap=0.25
 dPairViaGap=0.25
 [pcbnew/Netclasses/2]
 Name=DDR3_DQS0_LM1.0
-Clearance=0.089
+Clearance=0.0635
 TrackWidth=0.089
 ViaDiameter=0.6
 ViaDrill=0.4
@@ -288,7 +286,7 @@ dPairGap=0.25
 dPairViaGap=0.25
 [pcbnew/Netclasses/3]
 Name=DDR3_DQS1_LM1.0
-Clearance=0.089
+Clearance=0.0635
 TrackWidth=0.089
 ViaDiameter=0.6
 ViaDrill=0.4
@@ -299,7 +297,7 @@ dPairGap=0.25
 dPairViaGap=0.25
 [pcbnew/Netclasses/4]
 Name=DDR_CLK_LM1.0
-Clearance=0.089
+Clearance=0.0635
 TrackWidth=0.089
 ViaDiameter=0.6
 ViaDrill=0.4
