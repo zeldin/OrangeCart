@@ -62,15 +62,15 @@ Text GLabel 1450 2050 0    60   Input ~ 0
 JTAG_TDI
 Text GLabel 1450 1950 0    60   Input ~ 0
 JTAG_TCK
-Text GLabel 1450 5250 0    50   Input ~ 0
+Text GLabel 4800 2950 0    50   Input ~ 0
 RAM_PSC+
-Text GLabel 1450 5350 0    50   Input ~ 0
+Text GLabel 4800 3050 0    50   Input ~ 0
 RAM_PSC-
-Text GLabel 3450 5850 2    50   Input ~ 0
+Text GLabel 6600 3350 2    50   Input ~ 0
 RAM_CK+
-Text GLabel 3450 5950 2    50   Input ~ 0
+Text GLabel 6600 3250 2    50   Input ~ 0
 RAM_CK-
-Text GLabel 3450 5050 2    50   Input ~ 0
+Text GLabel 4800 2650 0    50   Input ~ 0
 RAM_CS#
 Text GLabel 9700 3050 0    50   UnSpc ~ 0
 P3.3V
@@ -269,7 +269,7 @@ QSPI_D2
 Text GLabel 2900 6900 1    50   UnSpc ~ 0
 P3.3V
 NoConn ~ 1450 1750
-Text GLabel 3450 4850 2    50   Input ~ 0
+Text GLabel 4800 2750 0    50   Input ~ 0
 RAM_RESET#
 Wire Wire Line
 	1700 7000 1600 7000
@@ -303,36 +303,32 @@ Wire Wire Line
 	1600 6400 1600 6500
 Text GLabel 3400 6750 1    50   UnSpc ~ 0
 P3.3V
-Text GLabel 1450 5750 0    50   BiDi ~ 0
+Text GLabel 4800 1750 0    50   BiDi ~ 0
 RAM_DQ0
-Text GLabel 3450 5550 2    50   BiDi ~ 0
+Text GLabel 4800 1850 0    50   BiDi ~ 0
 RAM_DQ1
-Text GLabel 3450 5150 2    50   BiDi ~ 0
+Text GLabel 4800 1950 0    50   BiDi ~ 0
 RAM_DQ2
-Text GLabel 1450 4650 0    50   BiDi ~ 0
+Text GLabel 4800 2050 0    50   BiDi ~ 0
 RAM_DQ3
-Text GLabel 1450 5850 0    50   BiDi ~ 0
+Text GLabel 4800 2150 0    50   BiDi ~ 0
 RAM_DQ4
-Text GLabel 3450 6050 2    50   BiDi ~ 0
+Text GLabel 4800 2350 0    50   BiDi ~ 0
 RAM_DQ6
-Text GLabel 3450 6150 2    50   BiDi ~ 0
+Text GLabel 4800 2450 0    50   BiDi ~ 0
 RAM_DQ7
-Text GLabel 3450 4950 2    50   BiDi ~ 0
+Text GLabel 4800 2550 0    50   BiDi ~ 0
 RAM_RWDS
 Text GLabel 9700 1850 0    50   UnSpc ~ 0
 P3.3V
-Text GLabel 9700 2850 0    50   UnSpc ~ 0
-P3.3V
 Text GLabel 9700 2050 0    50   UnSpc ~ 0
+P3.3V
+Text GLabel 9700 2850 0    50   UnSpc ~ 0
 P1.8V
-Text GLabel 1450 4850 0    50   UnSpc ~ 0
+Text GLabel 6600 3450 2    50   UnSpc ~ 0
 P1.8V
-Text GLabel 1450 4750 0    50   UnSpc ~ 0
+Text GLabel 6600 3550 2    50   UnSpc ~ 0
 P1.8V
-Text GLabel 3450 5350 2    50   UnSpc ~ 0
-P1.8V
-NoConn ~ 1450 4550
-NoConn ~ 3450 5450
 NoConn ~ 1450 2550
 NoConn ~ 1450 2650
 NoConn ~ 1450 2750
@@ -422,67 +418,67 @@ Text GLabel 7300 3750 0    50   Input ~ 0
 SD0_DAT1
 Text GLabel 9100 3650 2    50   Input ~ 0
 SD0_CLK
-Text GLabel 4300 5650 2    50   UnSpc ~ 0
+Text GLabel 7150 2250 2    50   UnSpc ~ 0
 P1.8V
 Wire Wire Line
-	4400 6200 4400 6250
-Connection ~ 4400 6200
+	7250 2800 7250 2850
+Connection ~ 7250 2800
 Wire Wire Line
-	4200 6200 4400 6200
+	7050 2800 7250 2800
 Wire Wire Line
-	4200 6150 4200 6200
+	7050 2750 7050 2800
 Wire Wire Line
-	4400 6150 4400 6200
-Connection ~ 4200 5750
+	7250 2750 7250 2800
+Connection ~ 7050 2350
 Wire Wire Line
-	4400 5750 4400 5850
+	7250 2350 7250 2450
 Wire Wire Line
-	4200 5750 4400 5750
+	7050 2350 7250 2350
 Wire Wire Line
-	4200 5750 4200 5850
+	7050 2350 7050 2450
 Wire Wire Line
-	4200 5650 4300 5650
+	7050 2250 7150 2250
 Wire Wire Line
-	4200 5750 4200 5650
+	7050 2350 7050 2250
 $Comp
 L gkl_power:GND #PWR0130
 U 1 1 5D84AB06
-P 4400 6250
-F 0 "#PWR0130" H 4400 6000 50  0001 C CNN
-F 1 "GND" H 4403 6124 50  0000 C CNN
-F 2 "" H 4300 5900 50  0001 C CNN
-F 3 "" H 4400 6250 50  0001 C CNN
-	1    4400 6250
+P 7250 2850
+F 0 "#PWR0130" H 7250 2600 50  0001 C CNN
+F 1 "GND" H 7253 2724 50  0000 C CNN
+F 2 "" H 7150 2500 50  0001 C CNN
+F 3 "" H 7250 2850 50  0001 C CNN
+	1    7250 2850
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C C26
 U 1 1 5D84AAFC
-P 4400 6000
-F 0 "C26" H 4515 6046 50  0000 L CNN
-F 1 "100nF" H 4515 5955 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0201_0603Metric" H 4438 5850 50  0001 C CNN
-F 3 "~" H 4400 6000 50  0001 C CNN
-F 4 "Samsung Electro-Mechanics" H 4400 6000 50  0001 C CNN "Mfg"
-F 5 "CL03A104KQ3NNNC" H 4400 6000 50  0001 C CNN "PN"
-F 6 "187-CL03A104KQ3NNNC" H 4400 6000 50  0001 C CNN "Mouser Part No"
-F 7 "0,09" H 4400 6000 50  0001 C CNN "Pricing (EUR)"
-	1    4400 6000
+P 7250 2600
+F 0 "C26" H 7365 2646 50  0000 L CNN
+F 1 "100nF" H 7365 2555 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0201_0603Metric" H 7288 2450 50  0001 C CNN
+F 3 "~" H 7250 2600 50  0001 C CNN
+F 4 "Samsung Electro-Mechanics" H 7250 2600 50  0001 C CNN "Mfg"
+F 5 "CL03A104KQ3NNNC" H 7250 2600 50  0001 C CNN "PN"
+F 6 "187-CL03A104KQ3NNNC" H 7250 2600 50  0001 C CNN "Mouser Part No"
+F 7 "0,09" H 7250 2600 50  0001 C CNN "Pricing (EUR)"
+	1    7250 2600
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C C25
 U 1 1 5D84AAF2
-P 4200 6000
-F 0 "C25" H 4085 6046 50  0000 R CNN
-F 1 "10nF" H 4085 5955 50  0000 R CNN
-F 2 "Capacitor_SMD:C_0201_0603Metric" H 4238 5850 50  0001 C CNN
-F 3 "~" H 4200 6000 50  0001 C CNN
-F 4 "Samsung Electro-Mechanics" H 4200 6000 50  0001 C CNN "Mfg"
-F 5 "CL03B103KP3NNNC" H 4200 6000 50  0001 C CNN "PN"
-F 6 "187-CL03B103KP3NNNC" H 4200 6000 50  0001 C CNN "Mouser Part No"
-F 7 "0,11" H 4200 6000 50  0001 C CNN "Pricing (EUR)"
-	1    4200 6000
+P 7050 2600
+F 0 "C25" H 6935 2646 50  0000 R CNN
+F 1 "10nF" H 6935 2555 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0201_0603Metric" H 7088 2450 50  0001 C CNN
+F 3 "~" H 7050 2600 50  0001 C CNN
+F 4 "Samsung Electro-Mechanics" H 7050 2600 50  0001 C CNN "Mfg"
+F 5 "CL03B103KP3NNNC" H 7050 2600 50  0001 C CNN "PN"
+F 6 "187-CL03B103KP3NNNC" H 7050 2600 50  0001 C CNN "Mouser Part No"
+F 7 "0,11" H 7050 2600 50  0001 C CNN "Pricing (EUR)"
+	1    7050 2600
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -789,47 +785,47 @@ Text GLabel 6600 4450 2    50   BiDi ~ 0
 D2
 Text GLabel 6600 4550 2    50   BiDi ~ 0
 D5
-Text GLabel 4800 1750 0    50   Input ~ 0
+Text GLabel 1450 4550 0    50   Input ~ 0
 RW_IN
-Text GLabel 4800 2550 0    50   Input ~ 0
+Text GLabel 1450 5050 0    50   Input ~ 0
 ROMH
-Text GLabel 4800 2450 0    50   Input ~ 0
+Text GLabel 1450 4650 0    50   Input ~ 0
 DOTCLK
-Text GLabel 6600 1950 2    50   Input ~ 0
+Text GLabel 3450 5450 2    50   Input ~ 0
 RESET_IN
-Text GLabel 4800 2150 0    50   Input ~ 0
+Text GLabel 1450 5150 0    50   Input ~ 0
 PHI2
-Text GLabel 4800 2050 0    50   Output ~ 0
+Text GLabel 1450 4850 0    50   Output ~ 0
 RESET_OUT
-Text GLabel 6600 2450 2    50   Output ~ 0
+Text GLabel 3450 5550 2    50   Output ~ 0
 GAME
-Text GLabel 6600 2050 2    50   Output ~ 0
+Text GLabel 3450 5350 2    50   Output ~ 0
 EXROM
-Text GLabel 4800 1650 0    50   Output ~ 0
+Text GLabel 1450 4750 0    50   Output ~ 0
 RW_OUT
-Text GLabel 6600 2350 2    50   Output ~ 0
+Text GLabel 3450 5650 2    50   Output ~ 0
 A_~EN~_H
-Text GLabel 4800 2950 0    50   Output ~ 0
+Text GLabel 1450 5650 0    50   Output ~ 0
 A_DIR_H
-Text GLabel 4800 3150 0    50   BiDi ~ 0
+Text GLabel 1450 5850 0    50   BiDi ~ 0
 A15
-Text GLabel 4800 3050 0    50   BiDi ~ 0
+Text GLabel 1450 5750 0    50   BiDi ~ 0
 A14
-Text GLabel 6600 3250 2    50   BiDi ~ 0
+Text GLabel 3450 5150 2    50   BiDi ~ 0
 A13
-Text GLabel 6600 2850 2    50   BiDi ~ 0
+Text GLabel 3450 6150 2    50   BiDi ~ 0
 A12
-Text GLabel 6600 3550 2    50   BiDi ~ 0
+Text GLabel 3450 4850 2    50   BiDi ~ 0
 A11
-Text GLabel 6600 2750 2    50   BiDi ~ 0
+Text GLabel 3450 6050 2    50   BiDi ~ 0
 A10
-Text GLabel 6600 2550 2    50   BiDi ~ 0
+Text GLabel 3450 5950 2    50   BiDi ~ 0
 A9
-Text GLabel 6600 2250 2    50   BiDi ~ 0
+Text GLabel 3450 5850 2    50   BiDi ~ 0
 A8
-Text GLabel 6600 3450 2    50   Input ~ 0
+Text GLabel 3450 5050 2    50   Input ~ 0
 BA
-Text GLabel 6600 3350 2    50   Input ~ 0
+Text GLabel 3450 4950 2    50   Input ~ 0
 IO2
 Text GLabel 4800 3650 0    50   Input ~ 0
 ROML
@@ -867,9 +863,9 @@ Text GLabel 6600 4950 2    50   Output ~ 0
 D_DIR
 Text GLabel 6600 5450 2    50   Output ~ 0
 D_~EN
-Text GLabel 6600 1450 2    50   BiDi ~ 0
+Text GLabel 4800 2250 0    50   BiDi ~ 0
 RAM_DQ5
-Text GLabel 6600 1550 2    60   Input ~ 0
+Text GLabel 4800 1650 0    60   Input ~ 0
 USER_BUTTON
 Text GLabel 4800 1450 0    50   Input ~ 0
 EXT_PLL-
@@ -887,26 +883,6 @@ Text GLabel 4800 5050 0    50   Input ~ 0
 USB_PULLUP
 Text GLabel 4800 4950 0    50   Input ~ 0
 USB_D-
-Connection ~ 7400 1350
-Wire Wire Line
-	7400 1250 7400 1350
-Wire Wire Line
-	6600 1250 7400 1250
-Wire Wire Line
-	7400 1350 7400 1650
-Wire Wire Line
-	6600 1350 7400 1350
-$Comp
-L gkl_power:GND #PWR0167
-U 1 1 5E31762C
-P 7400 1650
-F 0 "#PWR0167" H 7400 1400 50  0001 C CNN
-F 1 "GND" H 7403 1524 50  0000 C CNN
-F 2 "" H 7300 1300 50  0001 C CNN
-F 3 "" H 7400 1650 50  0001 C CNN
-	1    7400 1650
-	1    0    0    -1  
-$EndComp
 NoConn ~ 6600 1750
 NoConn ~ 6600 1850
 NoConn ~ 6600 2950
@@ -926,17 +902,6 @@ NoConn ~ 4800 5550
 NoConn ~ 4800 4050
 NoConn ~ 4800 3950
 NoConn ~ 4800 3250
-NoConn ~ 4800 2750
-NoConn ~ 4800 2650
-NoConn ~ 4800 2350
-NoConn ~ 4800 2250
-NoConn ~ 4800 1950
-NoConn ~ 4800 1850
-NoConn ~ 4800 1350
-NoConn ~ 4800 1250
-Wire Wire Line
-	3450 5650 4200 5650
-Connection ~ 4200 5650
 NoConn ~ 3450 4150
 NoConn ~ 3450 3650
 NoConn ~ 3450 3550
@@ -944,10 +909,6 @@ NoConn ~ 3450 2650
 NoConn ~ 3450 2550
 NoConn ~ 3450 2450
 NoConn ~ 3450 2350
-NoConn ~ 1450 5650
-NoConn ~ 1450 5550
-NoConn ~ 1450 5150
-NoConn ~ 1450 5050
 NoConn ~ 1450 4250
 NoConn ~ 1450 4350
 NoConn ~ 1450 3950
@@ -1023,4 +984,23 @@ Text Notes 8100 3350 0    50   ~ 0
 Bank 0
 Text Notes 8100 5050 0    50   ~ 0
 Bank 1
+Wire Wire Line
+	6600 2350 7050 2350
+NoConn ~ 4800 3150
+NoConn ~ 6600 2850
+NoConn ~ 6600 2750
+NoConn ~ 6600 2550
+NoConn ~ 6600 2450
+NoConn ~ 6600 2250
+NoConn ~ 6600 2050
+NoConn ~ 6600 1950
+NoConn ~ 1450 5250
+NoConn ~ 1450 5350
+NoConn ~ 1450 5550
+NoConn ~ 4800 1250
+NoConn ~ 4800 1350
+NoConn ~ 6600 1250
+NoConn ~ 6600 1350
+NoConn ~ 6600 1450
+NoConn ~ 6600 1550
 $EndSCHEMATC
