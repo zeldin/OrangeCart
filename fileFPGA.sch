@@ -977,4 +977,50 @@ Wire Wire Line
 Wire Wire Line
 	3400 7200 3700 7200
 Connection ~ 3400 7200
+Wire Notes Line
+	1800 4450 2450 4450
+Wire Notes Line
+	2450 4450 2450 4750
+Wire Notes Line
+	2450 4750 3100 4750
+Wire Notes Line
+	1800 3200 2500 3200
+Wire Notes Line
+	2500 3200 2500 2250
+Wire Notes Line
+	2500 2250 3100 2250
+Text Notes 2350 3850 0    50   ~ 0
+Bank 7
+Wire Notes Line
+	5200 1600 6200 1600
+Text Notes 5600 1400 0    50   ~ 0
+Bank 6
+Text Notes 2350 5350 0    50   ~ 0
+Bank 6
+Text Notes 2350 1600 0    50   ~ 0
+Bank 8
+Wire Notes Line
+	5150 5300 5750 5300
+Wire Notes Line
+	5750 5300 5750 5650
+Wire Notes Line
+	5750 5650 6250 5650
+Wire Notes Line
+	5150 3350 5700 3350
+Wire Notes Line
+	5700 3350 5700 3650
+Wire Notes Line
+	5700 3650 6250 3650
+Text Notes 5600 2500 0    50   ~ 0
+Bank 2
+Text Notes 5600 4500 0    50   ~ 0
+Bank 3
+Text Notes 5600 6000 0    50   ~ 0
+Bank 0
+Wire Notes Line
+	7650 3850 8750 3850
+Text Notes 8100 3350 0    50   ~ 0
+Bank 0
+Text Notes 8100 5050 0    50   ~ 0
+Bank 1
 $EndSCHEMATC
