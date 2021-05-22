@@ -877,11 +877,11 @@ Text GLabel 6600 4750 2    50   Input ~ 0
 LED_G
 Text GLabel 4800 4750 0    50   Input ~ 0
 LED_R
-Text GLabel 6600 5550 2    50   Input ~ 0
+Text GLabel 6600 1450 2    50   Input ~ 0
 USB_D+
-Text GLabel 4800 5050 0    50   Input ~ 0
+Text GLabel 4800 1350 0    50   Input ~ 0
 USB_PULLUP
-Text GLabel 4800 4950 0    50   Input ~ 0
+Text GLabel 6600 1550 2    50   Input ~ 0
 USB_D-
 NoConn ~ 6600 1750
 NoConn ~ 6600 1850
@@ -998,9 +998,9 @@ NoConn ~ 1450 5250
 NoConn ~ 1450 5350
 NoConn ~ 1450 5550
 NoConn ~ 4800 1250
-NoConn ~ 4800 1350
+NoConn ~ 4800 5050
 NoConn ~ 6600 1250
 NoConn ~ 6600 1350
-NoConn ~ 6600 1450
-NoConn ~ 6600 1550
+NoConn ~ 6600 5550
+NoConn ~ 4800 4950
 $EndSCHEMATC
