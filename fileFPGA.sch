@@ -70,7 +70,7 @@ Text GLabel 6600 3350 2    50   Input ~ 0
 RAM_CK+
 Text GLabel 6600 3250 2    50   Input ~ 0
 RAM_CK-
-Text GLabel 4800 2650 0    50   Input ~ 0
+Text GLabel 4800 3250 0    50   Input ~ 0
 RAM_CS#
 Text GLabel 9700 3050 0    50   UnSpc ~ 0
 P3.3V
@@ -269,7 +269,7 @@ QSPI_D2
 Text GLabel 2900 6900 1    50   UnSpc ~ 0
 P3.3V
 NoConn ~ 1450 1750
-Text GLabel 4800 2750 0    50   Input ~ 0
+Text GLabel 6600 3050 2    50   Input ~ 0
 RAM_RESET#
 Wire Wire Line
 	1700 7000 1600 7000
@@ -303,21 +303,21 @@ Wire Wire Line
 	1600 6400 1600 6500
 Text GLabel 3400 6750 1    50   UnSpc ~ 0
 P3.3V
-Text GLabel 4800 1750 0    50   BiDi ~ 0
+Text GLabel 6600 2450 2    50   BiDi ~ 0
 RAM_DQ0
-Text GLabel 4800 1850 0    50   BiDi ~ 0
+Text GLabel 4800 1650 0    50   BiDi ~ 0
 RAM_DQ1
-Text GLabel 4800 1950 0    50   BiDi ~ 0
-RAM_DQ2
-Text GLabel 4800 2050 0    50   BiDi ~ 0
-RAM_DQ3
 Text GLabel 4800 2150 0    50   BiDi ~ 0
-RAM_DQ4
-Text GLabel 4800 2350 0    50   BiDi ~ 0
-RAM_DQ6
+RAM_DQ2
 Text GLabel 4800 2450 0    50   BiDi ~ 0
-RAM_DQ7
+RAM_DQ3
+Text GLabel 4800 2050 0    50   BiDi ~ 0
+RAM_DQ4
+Text GLabel 6600 2250 2    50   BiDi ~ 0
+RAM_DQ6
 Text GLabel 4800 2550 0    50   BiDi ~ 0
+RAM_DQ7
+Text GLabel 4800 3150 0    50   BiDi ~ 0
 RAM_RWDS
 Text GLabel 9700 1850 0    50   UnSpc ~ 0
 P3.3V
@@ -863,9 +863,9 @@ Text GLabel 6600 4950 2    50   Output ~ 0
 D_DIR
 Text GLabel 6600 5450 2    50   Output ~ 0
 D_~EN
-Text GLabel 4800 2250 0    50   BiDi ~ 0
+Text GLabel 6600 1850 2    50   BiDi ~ 0
 RAM_DQ5
-Text GLabel 4800 1650 0    60   Input ~ 0
+Text GLabel 4800 2750 0    60   Input ~ 0
 USER_BUTTON
 Text GLabel 4800 1450 0    50   Input ~ 0
 EXT_PLL-
@@ -883,10 +883,10 @@ Text GLabel 4800 1350 0    50   Input ~ 0
 USB_PULLUP
 Text GLabel 6600 1550 2    50   Input ~ 0
 USB_D-
+NoConn ~ 4800 2350
+NoConn ~ 4800 2250
 NoConn ~ 6600 1750
-NoConn ~ 6600 1850
-NoConn ~ 6600 2950
-NoConn ~ 6600 3050
+NoConn ~ 4800 2650
 NoConn ~ 6600 5250
 NoConn ~ 6600 5350
 NoConn ~ 6600 5750
@@ -901,7 +901,7 @@ NoConn ~ 4800 5650
 NoConn ~ 4800 5550
 NoConn ~ 4800 4050
 NoConn ~ 4800 3950
-NoConn ~ 4800 3250
+NoConn ~ 6600 2950
 NoConn ~ 3450 4150
 NoConn ~ 3450 3650
 NoConn ~ 3450 3550
@@ -986,12 +986,12 @@ Text Notes 8100 5050 0    50   ~ 0
 Bank 1
 Wire Wire Line
 	6600 2350 7050 2350
-NoConn ~ 4800 3150
 NoConn ~ 6600 2850
+NoConn ~ 4800 1750
 NoConn ~ 6600 2750
 NoConn ~ 6600 2550
-NoConn ~ 6600 2450
-NoConn ~ 6600 2250
+NoConn ~ 4800 1850
+NoConn ~ 4800 1950
 NoConn ~ 6600 2050
 NoConn ~ 6600 1950
 NoConn ~ 1450 5250
