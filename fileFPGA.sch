@@ -329,11 +329,11 @@ Text GLabel 6600 3450 2    50   UnSpc ~ 0
 P1.8V
 Text GLabel 6600 3550 2    50   UnSpc ~ 0
 P1.8V
-NoConn ~ 1450 2550
-NoConn ~ 1450 2650
+NoConn ~ 4800 4750
+NoConn ~ 4800 4650
 NoConn ~ 1450 2750
 NoConn ~ 1450 2850
-NoConn ~ 3450 1850
+NoConn ~ 6600 4750
 NoConn ~ 3450 1750
 NoConn ~ 1450 3150
 NoConn ~ 1450 4050
@@ -871,11 +871,11 @@ Text GLabel 4800 1450 0    50   Input ~ 0
 EXT_PLL-
 Text GLabel 4800 1550 0    50   Input ~ 0
 EXT_PLL+
-Text GLabel 4800 4650 0    50   Input ~ 0
+Text GLabel 3450 1850 2    50   Input ~ 0
 LED_B
-Text GLabel 6600 4750 2    50   Input ~ 0
+Text GLabel 1450 2650 0    50   Input ~ 0
 LED_G
-Text GLabel 4800 4750 0    50   Input ~ 0
+Text GLabel 1450 2550 0    50   Input ~ 0
 LED_R
 Text GLabel 6600 1450 2    50   Input ~ 0
 USB_D+
