@@ -401,11 +401,11 @@ F 3 "" H 9800 1350 60  0000 C CNN
 $EndComp
 Text GLabel 7300 4050 0    50   Input ~ 0
 REF_CLK
-Text GLabel 7300 3650 0    50   Input ~ 0
+Text GLabel 7300 4950 0    50   Input ~ 0
 SD0_DAT2
-Text GLabel 9100 3950 2    50   Input ~ 0
+Text GLabel 9100 5250 2    50   Input ~ 0
 SD0_CMD
-Text GLabel 9100 3750 2    50   Input ~ 0
+Text GLabel 7300 5150 0    50   Input ~ 0
 SD0_CD
 Text GLabel 7300 6150 0    50   Output ~ 0
 IRQ_OUT
@@ -413,10 +413,9 @@ Text GLabel 7300 6050 0    50   Output ~ 0
 NMI_OUT
 Text GLabel 7300 3950 0    50   Input ~ 0
 IO1
-NoConn ~ 9100 4050
-Text GLabel 7300 3750 0    50   Input ~ 0
+Text GLabel 7300 4350 0    50   Input ~ 0
 SD0_DAT1
-Text GLabel 9100 3650 2    50   Input ~ 0
+Text GLabel 9100 4650 2    50   Input ~ 0
 SD0_CLK
 Text GLabel 7150 2250 2    50   UnSpc ~ 0
 P1.8V
@@ -734,13 +733,12 @@ NoConn ~ 9100 5850
 NoConn ~ 9100 5750
 NoConn ~ 9100 5550
 NoConn ~ 9100 5450
-NoConn ~ 9100 5250
 NoConn ~ 9100 5150
-NoConn ~ 9100 4950
+NoConn ~ 7300 3750
 NoConn ~ 9100 4850
-NoConn ~ 9100 4650
+NoConn ~ 9100 3650
 NoConn ~ 9100 4550
-NoConn ~ 9100 4350
+NoConn ~ 7300 4250
 NoConn ~ 9100 4250
 NoConn ~ 9100 3450
 NoConn ~ 9100 3350
@@ -750,21 +748,21 @@ NoConn ~ 7300 3050
 NoConn ~ 7300 3150
 NoConn ~ 7300 3350
 NoConn ~ 7300 3450
-NoConn ~ 7300 4250
-NoConn ~ 7300 4350
+NoConn ~ 4800 5450
+NoConn ~ 9100 4950
 NoConn ~ 7300 4550
 NoConn ~ 7300 4650
-NoConn ~ 7300 4850
-NoConn ~ 7300 4950
-NoConn ~ 7300 5150
+NoConn ~ 4800 5350
+NoConn ~ 7300 3650
+NoConn ~ 9100 3750
 NoConn ~ 7300 5250
 NoConn ~ 7300 5450
 NoConn ~ 7300 5550
 NoConn ~ 7300 5750
 NoConn ~ 7300 5850
-Text GLabel 4800 5350 0    50   Input ~ 0
+Text GLabel 7300 4850 0    50   Input ~ 0
 SD0_DAT3
-Text GLabel 4800 5450 0    50   Input ~ 0
+Text GLabel 9100 4350 2    50   Input ~ 0
 SD0_DAT0
 $Comp
 L lattice:LFE5U-25F-6BG256I U3
@@ -1003,4 +1001,46 @@ NoConn ~ 6600 1250
 NoConn ~ 6600 1350
 NoConn ~ 6600 5550
 NoConn ~ 4800 4950
+$Comp
+L Connector_Generic:Conn_01x03 J2
+U 1 1 60C2A7FC
+P 8550 2050
+F 0 "J2" H 8630 2092 50  0000 L CNN
+F 1 "Conn_01x03" H 8630 2001 50  0000 L CNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_1x03_P1.27mm_Vertical_SMD_Pin1Right" H 8550 2050 50  0001 C CNN
+F 3 "~" H 8550 2050 50  0001 C CNN
+	1    8550 2050
+	1    0    0    -1  
+$EndComp
+Text Label 8050 2050 0    50   ~ 0
+RXD
+Text Label 8050 2150 0    50   ~ 0
+TXD
+Wire Wire Line
+	8350 2050 8050 2050
+Wire Wire Line
+	8350 2150 8050 2150
+$Comp
+L gkl_power:GND #PWR02
+U 1 1 60C4FAC8
+P 7850 2200
+F 0 "#PWR02" H 7850 1950 50  0001 C CNN
+F 1 "GND" H 7853 2074 50  0000 C CNN
+F 2 "" H 7750 1850 50  0001 C CNN
+F 3 "" H 7850 2200 50  0001 C CNN
+	1    7850 2200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8350 1950 7850 1950
+Wire Wire Line
+	7850 1950 7850 2200
+Wire Wire Line
+	9100 3950 9400 3950
+Wire Wire Line
+	9100 4050 9400 4050
+Text Label 9400 3950 2    50   ~ 0
+TXD
+Text Label 9400 4050 2    50   ~ 0
+RXD
 $EndSCHEMATC
