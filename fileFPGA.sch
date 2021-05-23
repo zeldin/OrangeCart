@@ -72,11 +72,7 @@ Text GLabel 6600 3250 2    50   Input ~ 0
 RAM_CK-
 Text GLabel 4800 3250 0    50   Input ~ 0
 RAM_CS#
-Text GLabel 9700 3050 0    50   UnSpc ~ 0
-P3.3V
 Text GLabel 9700 2550 0    50   UnSpc ~ 0
-P3.3V
-Text GLabel 9700 1350 0    50   UnSpc ~ 0
 P3.3V
 Text GLabel 9700 3350 0    50   UnSpc ~ 0
 P3.3V
@@ -501,8 +497,6 @@ $EndComp
 Wire Wire Line
 	3400 6850 3400 6750
 Wire Wire Line
-	9700 1350 9750 1350
-Wire Wire Line
 	9800 1450 9750 1450
 Wire Wire Line
 	9750 1450 9750 1350
@@ -576,8 +570,6 @@ Wire Wire Line
 Connection ~ 9750 2850
 Wire Wire Line
 	9750 2850 9800 2850
-Wire Wire Line
-	9700 3050 9750 3050
 Wire Wire Line
 	9800 3250 9750 3250
 Wire Wire Line
@@ -1037,4 +1029,38 @@ Text Label 9400 3950 2    50   ~ 0
 TXD
 Text Label 9400 4050 2    50   ~ 0
 RXD
+$Comp
+L gkl_power:GND #PWR?
+U 1 1 60ACCE00
+P 9300 1450
+AR Path="/5ABC9A87/60ACCE00" Ref="#PWR?"  Part="1" 
+AR Path="/5AB8ACB7/60ACCE00" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 9300 1200 50  0001 C CNN
+F 1 "GND" H 9303 1324 50  0000 C CNN
+F 2 "" H 9200 1100 50  0001 C CNN
+F 3 "" H 9300 1450 50  0001 C CNN
+	1    9300 1450
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	9300 1350 9300 1450
+Wire Wire Line
+	9300 1350 9750 1350
+$Comp
+L gkl_power:GND #PWR?
+U 1 1 60AE1D24
+P 9300 3150
+AR Path="/5ABC9A87/60AE1D24" Ref="#PWR?"  Part="1" 
+AR Path="/5AB8ACB7/60AE1D24" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 9300 2900 50  0001 C CNN
+F 1 "GND" H 9303 3024 50  0000 C CNN
+F 2 "" H 9200 2800 50  0001 C CNN
+F 3 "" H 9300 3150 50  0001 C CNN
+	1    9300 3150
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	9300 3050 9300 3150
+Wire Wire Line
+	9300 3050 9750 3050
 $EndSCHEMATC
