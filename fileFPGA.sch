@@ -87,65 +87,65 @@ P1.1V
 $Comp
 L Connector_Generic:Conn_02x05_Odd_Even J?
 U 1 1 5D3A2D7E
-P 8900 1100
+P 8600 1100
 AR Path="/5ABC9A87/5D3A2D7E" Ref="J?"  Part="1" 
 AR Path="/5AB8ACB7/5D3A2D7E" Ref="J6"  Part="1" 
-F 0 "J6" H 8950 1517 50  0000 C CNN
-F 1 "JTAG" H 8950 1426 50  0000 C CNN
-F 2 "gkl_conn:FTSH-105-XX-X-DV" H 8900 1100 50  0001 C CNN
-F 3 "~" H 8900 1100 50  0001 C CNN
-F 4 "FTSH-105-01-F-DV-K-TR" H 8900 1100 50  0001 C CNN "PN"
-F 5 "Samtec Inc." H 8900 1100 50  0001 C CNN "Mfg"
-F 6 "200-FTSH10501FDVKTR" H 8900 1100 50  0001 C CNN "Mouser Part No"
-F 7 "2,33" H 8900 1100 50  0001 C CNN "Pricing (EUR)"
-	1    8900 1100
+F 0 "J6" H 8650 1517 50  0000 C CNN
+F 1 "JTAG" H 8650 1426 50  0000 C CNN
+F 2 "gkl_conn:FTSH-105-XX-X-DV" H 8600 1100 50  0001 C CNN
+F 3 "~" H 8600 1100 50  0001 C CNN
+F 4 "FTSH-105-01-F-DV-K-TR" H 8600 1100 50  0001 C CNN "PN"
+F 5 "Samtec Inc." H 8600 1100 50  0001 C CNN "Mfg"
+F 6 "200-FTSH10501FDVKTR" H 8600 1100 50  0001 C CNN "Mouser Part No"
+F 7 "2,33" H 8600 1100 50  0001 C CNN "Pricing (EUR)"
+	1    8600 1100
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	9100 1000 9250 1000
+	8800 1000 8950 1000
 Wire Wire Line
-	9250 1000 9250 1100
+	8950 1000 8950 1100
 Wire Wire Line
-	9100 1100 9250 1100
-Connection ~ 9250 1100
+	8800 1100 8950 1100
+Connection ~ 8950 1100
 Wire Wire Line
-	9250 1100 9250 1200
+	8950 1100 8950 1200
 Wire Wire Line
-	9250 1200 9100 1200
-Connection ~ 9250 1200
+	8950 1200 8800 1200
+Connection ~ 8950 1200
 Wire Wire Line
-	9250 1200 9250 1300
+	8950 1200 8950 1300
 Wire Wire Line
-	9100 1300 9250 1300
-Connection ~ 9250 1300
+	8800 1300 8950 1300
+Connection ~ 8950 1300
 Wire Wire Line
-	9250 1300 9250 1450
+	8950 1300 8950 1450
 $Comp
 L gkl_power:GND #PWR?
 U 1 1 5D3A2D91
-P 9250 1450
+P 8950 1450
 AR Path="/5ABC9A87/5D3A2D91" Ref="#PWR?"  Part="1" 
 AR Path="/5AB8ACB7/5D3A2D91" Ref="#PWR0107"  Part="1" 
-F 0 "#PWR0107" H 9250 1200 50  0001 C CNN
-F 1 "GND" H 9253 1324 50  0000 C CNN
-F 2 "" H 9150 1100 50  0001 C CNN
-F 3 "" H 9250 1450 50  0001 C CNN
-	1    9250 1450
+F 0 "#PWR0107" H 8950 1200 50  0001 C CNN
+F 1 "GND" H 8953 1324 50  0000 C CNN
+F 2 "" H 8850 1100 50  0001 C CNN
+F 3 "" H 8950 1450 50  0001 C CNN
+	1    8950 1450
 	-1   0    0    -1  
 $EndComp
-Text GLabel 9400 900  2    50   UnSpc ~ 0
+Text GLabel 9100 900  2    50   UnSpc ~ 0
 P3.3V
-Text GLabel 8600 900  0    60   Input ~ 0
+Text GLabel 8300 900  0    60   Input ~ 0
 JTAG_TMS
-Text GLabel 8600 1300 0    60   Input ~ 0
+Text GLabel 8300 1300 0    60   Input ~ 0
 FPGA_RESET
-Text GLabel 7500 1000 0    60   Input ~ 0
+Text GLabel 7200 1000 0    60   Input ~ 0
 JTAG_TCK
-Text GLabel 8600 1200 0    60   Input ~ 0
+Text GLabel 8300 1200 0    60   Input ~ 0
 JTAG_TDI
 Text GLabel 3450 1250 2    60   Input ~ 0
 JTAG_TDO
-Text GLabel 8600 1100 0    60   Input ~ 0
+Text GLabel 8300 1100 0    60   Input ~ 0
 JTAG_TDO
 Text GLabel 1100 1450 0    50   UnSpc ~ 0
 P3.3V
@@ -188,31 +188,31 @@ Wire Wire Line
 $Comp
 L Device:R R?
 U 1 1 5D593C8A
-P 7700 1200
+P 7400 1200
 AR Path="/5ABC9A87/5D593C8A" Ref="R?"  Part="1" 
 AR Path="/5AB8ACB7/5D593C8A" Ref="R27"  Part="1" 
-F 0 "R27" H 7630 1154 50  0000 R CNN
-F 1 "4.7k" H 7630 1245 50  0000 R CNN
-F 2 "Resistor_SMD:R_0201_0603Metric" V 7630 1200 50  0001 C CNN
-F 3 "~" H 7700 1200 50  0001 C CNN
-F 4 "‎Yageo‎" H 7700 1200 50  0001 C CNN "Mfg"
-F 5 "RC0201FR-074K7L" H 7700 1200 50  0001 C CNN "PN"
-F 6 "603-RC0201FR-074K7L" H 7700 1200 50  0001 C CNN "Mouser Part No"
-F 7 "0,11" H 7700 1200 50  0001 C CNN "Pricing (EUR)"
-	1    7700 1200
+F 0 "R27" H 7330 1154 50  0000 R CNN
+F 1 "4.7k" H 7330 1245 50  0000 R CNN
+F 2 "Resistor_SMD:R_0201_0603Metric" V 7330 1200 50  0001 C CNN
+F 3 "~" H 7400 1200 50  0001 C CNN
+F 4 "‎Yageo‎" H 7400 1200 50  0001 C CNN "Mfg"
+F 5 "RC0201FR-074K7L" H 7400 1200 50  0001 C CNN "PN"
+F 6 "603-RC0201FR-074K7L" H 7400 1200 50  0001 C CNN "Mouser Part No"
+F 7 "0,11" H 7400 1200 50  0001 C CNN "Pricing (EUR)"
+	1    7400 1200
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	7700 1350 7700 1400
+	7400 1350 7400 1400
 $Comp
 L gkl_power:GND #PWR0170
 U 1 1 5D59DFEC
-P 7700 1400
-F 0 "#PWR0170" H 7700 1150 50  0001 C CNN
-F 1 "GND" H 7703 1274 50  0000 C CNN
-F 2 "" H 7600 1050 50  0001 C CNN
-F 3 "" H 7700 1400 50  0001 C CNN
-	1    7700 1400
+P 7400 1400
+F 0 "#PWR0170" H 7400 1150 50  0001 C CNN
+F 1 "GND" H 7403 1274 50  0000 C CNN
+F 2 "" H 7300 1050 50  0001 C CNN
+F 3 "" H 7400 1400 50  0001 C CNN
+	1    7400 1400
 	-1   0    0    -1  
 $EndComp
 $Comp
@@ -336,36 +336,32 @@ NoConn ~ 1450 2850
 NoConn ~ 6600 4750
 NoConn ~ 3450 1750
 NoConn ~ 1450 3150
-NoConn ~ 1450 4050
-NoConn ~ 1450 4150
-NoConn ~ 3450 2850
-NoConn ~ 3450 3050
-NoConn ~ 3450 3150
-NoConn ~ 3450 3450
-NoConn ~ 3450 3350
-NoConn ~ 3450 3850
+NoConn ~ 3450 5350
+NoConn ~ 4800 5250
+NoConn ~ 3450 4850
+NoConn ~ 6600 5450
+NoConn ~ 4800 3550
+NoConn ~ 6600 4050
+NoConn ~ 4800 5150
+NoConn ~ 4800 3750
 NoConn ~ 3450 3950
 NoConn ~ 3450 4050
-NoConn ~ 3450 4350
-NoConn ~ 3450 4450
-NoConn ~ 3450 4550
-NoConn ~ 3450 4650
-Text GLabel 1350 3250 0    50   BiDi ~ 0
+NoConn ~ 4800 4450
+NoConn ~ 6600 4950
+NoConn ~ 4800 3450
+NoConn ~ 3450 4950
+Text GLabel 3450 3650 2    50   BiDi ~ 0
 CSPARECS
-Text GLabel 1350 3350 0    50   BiDi ~ 0
+Text GLabel 3450 3350 2    50   BiDi ~ 0
 CRTCCS
-Text GLabel 3550 2950 2    50   BiDi ~ 0
+Text GLabel 3450 3050 2    50   BiDi ~ 0
 CIOWR
-Text GLabel 1350 3650 0    50   BiDi ~ 0
+Text GLabel 3450 3150 2    50   BiDi ~ 0
 CIORD
 Wire Wire Line
 	1450 3250 1350 3250
 Wire Wire Line
 	1450 3350 1350 3350
-Wire Wire Line
-	1450 3650 1350 3650
-Wire Wire Line
-	3450 2950 3550 2950
 $Comp
 L lattice:LFE5U-25F-6BG256I U3
 U 1 1 60ACC2B5
@@ -407,11 +403,11 @@ Text GLabel 9100 5250 2    50   Input ~ 0
 SD0_CMD
 Text GLabel 7300 5150 0    50   Input ~ 0
 SD0_CD
-Text GLabel 7300 6150 0    50   Output ~ 0
+Text GLabel 1450 4250 0    50   Output ~ 0
 IRQ_OUT
-Text GLabel 7300 6050 0    50   Output ~ 0
+Text GLabel 3450 2650 2    50   Output ~ 0
 NMI_OUT
-Text GLabel 7300 3950 0    50   Input ~ 0
+Text GLabel 1450 4350 0    50   Input ~ 0
 IO1
 Text GLabel 7300 4350 0    50   Input ~ 0
 SD0_DAT1
@@ -481,9 +477,9 @@ F 7 "0,11" H 7050 2600 50  0001 C CNN "Pricing (EUR)"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9100 900  9400 900 
+	8800 900  9100 900 
 NoConn ~ 1450 2450
-Text GLabel 1350 2350 0    60   Input ~ 0
+Text GLabel 1450 2350 0    60   Input ~ 0
 SPI_CONFIG_SCK
 $Comp
 L Device:R R?
@@ -775,91 +771,91 @@ F 3 "" H 4800 1250 60  0000 C CNN
 	2    4800 1250
 	1    0    0    -1  
 $EndComp
-Text GLabel 6600 3950 2    50   BiDi ~ 0
+Text GLabel 3450 5450 2    50   BiDi ~ 0
 D1
-Text GLabel 4800 4250 0    50   BiDi ~ 0
+Text GLabel 1450 4750 0    50   BiDi ~ 0
 D0
-Text GLabel 6600 4450 2    50   BiDi ~ 0
+Text GLabel 1450 5350 0    50   BiDi ~ 0
 D2
-Text GLabel 6600 4550 2    50   BiDi ~ 0
+Text GLabel 3450 5550 2    50   BiDi ~ 0
 D5
-Text GLabel 1450 4550 0    50   Input ~ 0
+Text GLabel 1450 3850 0    50   Input ~ 0
 RW_IN
-Text GLabel 1450 5050 0    50   Input ~ 0
+Text GLabel 1450 3450 0    50   Input ~ 0
 ROMH
-Text GLabel 1450 4650 0    50   Input ~ 0
+Text GLabel 1350 3350 0    50   Input ~ 0
 DOTCLK
-Text GLabel 3450 5450 2    50   Input ~ 0
+Text GLabel 1350 3250 0    50   Input ~ 0
 RESET_IN
-Text GLabel 1450 5150 0    50   Input ~ 0
+Text GLabel 1450 3750 0    50   Input ~ 0
 PHI2
-Text GLabel 1450 4850 0    50   Output ~ 0
+Text GLabel 1450 3650 0    50   Output ~ 0
 RESET_OUT
-Text GLabel 3450 5550 2    50   Output ~ 0
+Text GLabel 1450 3550 0    50   Output ~ 0
 GAME
-Text GLabel 3450 5350 2    50   Output ~ 0
+Text GLabel 1450 4050 0    50   Output ~ 0
 EXROM
-Text GLabel 1450 4750 0    50   Output ~ 0
+Text GLabel 1450 3950 0    50   Output ~ 0
 RW_OUT
-Text GLabel 3450 5650 2    50   Output ~ 0
+Text GLabel 1450 4150 0    50   Output ~ 0
 A_~EN~_H
-Text GLabel 1450 5650 0    50   Output ~ 0
+Text GLabel 3450 2350 2    50   Output ~ 0
 A_DIR_H
-Text GLabel 1450 5850 0    50   BiDi ~ 0
+Text GLabel 3450 2450 2    50   BiDi ~ 0
 A15
-Text GLabel 1450 5750 0    50   BiDi ~ 0
+Text GLabel 3450 2850 2    50   BiDi ~ 0
 A14
-Text GLabel 3450 5150 2    50   BiDi ~ 0
+Text GLabel 3450 2950 2    50   BiDi ~ 0
 A13
-Text GLabel 3450 6150 2    50   BiDi ~ 0
+Text GLabel 3450 3850 2    50   BiDi ~ 0
 A12
-Text GLabel 3450 4850 2    50   BiDi ~ 0
+Text GLabel 3450 4450 2    50   BiDi ~ 0
 A11
-Text GLabel 3450 6050 2    50   BiDi ~ 0
+Text GLabel 3450 4350 2    50   BiDi ~ 0
 A10
-Text GLabel 3450 5950 2    50   BiDi ~ 0
+Text GLabel 3450 2550 2    50   BiDi ~ 0
 A9
-Text GLabel 3450 5850 2    50   BiDi ~ 0
+Text GLabel 3450 3450 2    50   BiDi ~ 0
 A8
-Text GLabel 3450 5050 2    50   Input ~ 0
+Text GLabel 3450 4650 2    50   Input ~ 0
 BA
-Text GLabel 3450 4950 2    50   Input ~ 0
+Text GLabel 3450 4550 2    50   Input ~ 0
 IO2
-Text GLabel 4800 3650 0    50   Input ~ 0
+Text GLabel 1450 4650 0    50   Input ~ 0
 ROML
-Text GLabel 4800 4150 0    50   Output ~ 0
+Text GLabel 1450 4550 0    50   Output ~ 0
 A_~EN~_L
-Text GLabel 4800 3750 0    50   Output ~ 0
+Text GLabel 3450 5150 2    50   Output ~ 0
 A_DIR_L
-Text GLabel 4800 3450 0    50   BiDi ~ 0
+Text GLabel 3450 5050 2    50   BiDi ~ 0
 A7
-Text GLabel 4800 3550 0    50   BiDi ~ 0
+Text GLabel 1450 5150 0    50   BiDi ~ 0
 A6
-Text GLabel 6600 3750 2    50   BiDi ~ 0
+Text GLabel 6600 1250 2    50   BiDi ~ 0
 A5
-Text GLabel 6600 3850 2    50   BiDi ~ 0
+Text GLabel 6600 1350 2    50   BiDi ~ 0
 A4
-Text GLabel 6600 4050 2    50   BiDi ~ 0
+Text GLabel 1450 5550 0    50   BiDi ~ 0
 A3
-Text GLabel 6600 4850 2    50   BiDi ~ 0
+Text GLabel 3450 5850 2    50   BiDi ~ 0
 A2
-Text GLabel 4800 4450 0    50   BiDi ~ 0
+Text GLabel 3450 6050 2    50   BiDi ~ 0
 A1
-Text GLabel 4800 4550 0    50   BiDi ~ 0
+Text GLabel 4800 1250 0    50   BiDi ~ 0
 A0
-Text GLabel 6600 4250 2    50   Output ~ 0
+Text GLabel 1450 4850 0    50   Output ~ 0
 DMA
-Text GLabel 6600 4350 2    50   BiDi ~ 0
+Text GLabel 1450 5250 0    50   BiDi ~ 0
 D3
-Text GLabel 4800 5150 0    50   BiDi ~ 0
+Text GLabel 3450 5950 2    50   BiDi ~ 0
 D4
-Text GLabel 6600 5050 2    50   BiDi ~ 0
+Text GLabel 3450 5650 2    50   BiDi ~ 0
 D7
-Text GLabel 4800 5250 0    50   BiDi ~ 0
+Text GLabel 1450 5750 0    50   BiDi ~ 0
 D6
-Text GLabel 6600 4950 2    50   Output ~ 0
+Text GLabel 1450 5850 0    50   Output ~ 0
 D_DIR
-Text GLabel 6600 5450 2    50   Output ~ 0
+Text GLabel 3450 6150 2    50   Output ~ 0
 D_~EN
 Text GLabel 6600 1850 2    50   BiDi ~ 0
 RAM_DQ5
@@ -901,19 +897,19 @@ NoConn ~ 4800 4050
 NoConn ~ 4800 3950
 NoConn ~ 6600 2950
 NoConn ~ 3450 4150
-NoConn ~ 3450 3650
+NoConn ~ 6600 3950
 NoConn ~ 3450 3550
-NoConn ~ 3450 2650
-NoConn ~ 3450 2550
-NoConn ~ 3450 2450
-NoConn ~ 3450 2350
-NoConn ~ 1450 4250
-NoConn ~ 1450 4350
-NoConn ~ 1450 3950
-NoConn ~ 1450 3850
-NoConn ~ 1450 3750
-NoConn ~ 1450 3550
-NoConn ~ 1450 3450
+NoConn ~ 7300 6050
+NoConn ~ 6600 4350
+NoConn ~ 6600 5050
+NoConn ~ 1450 5650
+NoConn ~ 4800 4250
+NoConn ~ 7300 3950
+NoConn ~ 7300 6150
+NoConn ~ 1450 5050
+NoConn ~ 4800 3650
+NoConn ~ 6600 4250
+NoConn ~ 4800 4150
 Wire Wire Line
 	1200 1350 1450 1350
 Wire Wire Line
@@ -921,14 +917,12 @@ Wire Wire Line
 Wire Wire Line
 	1100 1450 1450 1450
 Wire Wire Line
-	7500 1000 7700 1000
+	7200 1000 7400 1000
 Wire Wire Line
-	7700 1050 7700 1000
-Connection ~ 7700 1000
+	7400 1050 7400 1000
+Connection ~ 7400 1000
 Wire Wire Line
-	7700 1000 8600 1000
-Wire Wire Line
-	1350 2350 1450 2350
+	7400 1000 8300 1000
 Wire Wire Line
 	2800 7200 3400 7200
 Wire Wire Line
@@ -992,13 +986,13 @@ NoConn ~ 4800 1850
 NoConn ~ 4800 1950
 NoConn ~ 6600 2050
 NoConn ~ 6600 1950
-NoConn ~ 1450 5250
-NoConn ~ 1450 5350
-NoConn ~ 1450 5550
-NoConn ~ 4800 1250
+NoConn ~ 6600 4450
+NoConn ~ 6600 4550
+NoConn ~ 4800 4550
+NoConn ~ 6600 3850
 NoConn ~ 4800 5050
-NoConn ~ 6600 1250
-NoConn ~ 6600 1350
+NoConn ~ 6600 3750
+NoConn ~ 6600 4850
 NoConn ~ 6600 5550
 NoConn ~ 4800 4950
 $Comp
@@ -1006,7 +1000,7 @@ L Connector_Generic:Conn_01x03 J2
 U 1 1 60C2A7FC
 P 8550 2050
 F 0 "J2" H 8630 2092 50  0000 L CNN
-F 1 "Conn_01x03" H 8630 2001 50  0000 L CNN
+F 1 "UART" H 8630 2001 50  0000 L CNN
 F 2 "Connector_PinHeader_1.27mm:PinHeader_1x03_P1.27mm_Vertical_SMD_Pin1Right" H 8550 2050 50  0001 C CNN
 F 3 "~" H 8550 2050 50  0001 C CNN
 	1    8550 2050
