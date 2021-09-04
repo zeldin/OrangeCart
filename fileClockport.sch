@@ -20,11 +20,11 @@ P 4500 3050
 F 0 "J1" H 4550 3767 50  0000 C CNN
 F 1 "Conn_02x11_Odd_Even" H 4550 3676 50  0000 C CNN
 F 2 "Connector_PinHeader_2.00mm:PinHeader_2x11_P2.00mm_Vertical" H 4500 3050 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/527/mtmm_th-1370249.pdf" H 4500 3050 50  0001 C CNN
+F 3 "https://www.mouser.se/datasheet/2/527/tmm_th-1535653.pdf" H 4500 3050 50  0001 C CNN
 F 4 "Samtec" H 4500 3050 50  0001 C CNN "Mfg"
-F 5 "200-MTMM11109LD380" H 4500 3050 50  0001 C CNN "Mouser Part No"
-F 6 "MTMM-111-09-L-D-380" H 4500 3050 50  0001 C CNN "PN"
-F 7 "3,74" H 4500 3050 50  0001 C CNN "Pricing (EUR)"
+F 5 "200-TMM11103GD" H 4500 3050 50  0001 C CNN "Mouser Part No"
+F 6 "TMM-111-03-G-D" H 4500 3050 50  0001 C CNN "PN"
+F 7 "3,43" H 4500 3050 50  0001 C CNN "Pricing (EUR)"
 	1    4500 3050
 	1    0    0    -1  
 $EndComp
