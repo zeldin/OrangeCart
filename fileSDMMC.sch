@@ -38,44 +38,10 @@ F 3 "" H 5700 4700 50  0001 C CNN
 	1    5700 4700
 	1    0    0    -1  
 $EndComp
-Text Notes 6550 4350 0    63   ~ 0
-DAT2\nDAT3/CD\nCMD\nVDD\nCLK\nVSS\nDAT0\nDAT1\nDET
-Wire Notes Line
-	6500 3400 6500 4400
 Wire Wire Line
 	6250 3800 5700 3800
 Wire Wire Line
 	6250 4000 5700 4000
-$Comp
-L Connector_Generic_MountingPin:Conn_01x09_MountingPin J4
-U 1 1 5D5BA533
-P 6450 3900
-F 0 "J4" H 6500 4600 50  0000 L CNN
-F 1 "MicroSd" H 6450 4500 50  0000 L CNN
-F 2 "gkl_conn:molex_microsd_1040310811" H 6450 3900 50  0001 C CNN
-F 3 "~" H 6450 3900 50  0001 C CNN
-F 4 "1040310811" H 6450 3900 50  0001 C CNN "PN"
-F 5 "Molex" H 6450 3900 50  0001 C CNN "Mfg"
-F 6 "538-104031-0811" H 6450 3900 50  0001 C CNN "Mouser Part No"
-F 7 "1,55" H 6450 3900 50  0001 C CNN "Pricing (EUR)"
-	1    6450 3900
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5700 4000 5700 4600
-Wire Wire Line
-	6450 4500 6450 4600
-Wire Wire Line
-	6450 4600 5700 4600
-Connection ~ 5700 4600
-Wire Wire Line
-	5700 4600 5700 4700
-Wire Notes Line
-	6500 4400 7200 4400
-Wire Notes Line
-	7200 3400 7200 4400
-Wire Notes Line
-	6500 3400 7200 3400
 Text GLabel 4150 3100 0    60   Input ~ 0
 P3.3V
 $Comp
@@ -229,4 +195,35 @@ F 7 "0,15" H 4800 3350 50  0001 C CNN "Pricing (EUR)"
 	1    4800 3350
 	-1   0    0    1   
 $EndComp
+$Comp
+L Connector:Micro_SD_Card_Det J4
+U 1 1 616B63AF
+P 7150 3900
+F 0 "J4" H 7100 4717 50  0000 C CNN
+F 1 "Micro_SD_Card_Det" H 7100 4626 50  0000 C CNN
+F 2 "molex:SDCARD_MOLEX_503398-1892" H 9200 4600 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/5033981892_sd.pdf" H 7150 4000 50  0001 C CNN
+F 4 "Molex" H 7150 3900 50  0001 C CNN "Mfg"
+F 5 "538-503398-1892" H 7150 3900 50  0001 C CNN "Mouser Part No"
+F 6 "503398-1892" H 7150 3900 50  0001 C CNN "PN"
+F 7 "2,25" H 7150 3900 50  0001 C CNN "Pricing (EUR)"
+	1    7150 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5700 4000 5700 4650
+Wire Wire Line
+	7950 4400 7950 4650
+Wire Wire Line
+	7950 4650 6150 4650
+Connection ~ 5700 4650
+Wire Wire Line
+	5700 4650 5700 4700
+Wire Wire Line
+	6250 4400 6150 4400
+Wire Wire Line
+	6150 4400 6150 4650
+Connection ~ 6150 4650
+Wire Wire Line
+	6150 4650 5700 4650
 $EndSCHEMATC
