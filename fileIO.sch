@@ -532,4 +532,52 @@ Wire Wire Line
 Connection ~ 2650 2750
 Wire Wire Line
 	2650 2750 2650 2800
+Text Notes 8600 3000 0    50   ~ 0
+"Pmod"
+$Comp
+L Connector_Generic:Conn_02x03_Odd_Even J5
+U 1 1 61EEB810
+P 8700 3400
+F 0 "J5" H 8750 3717 50  0000 C CNN
+F 1 "Conn_02x03_Odd_Even" H 8750 3626 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x03_P2.54mm_Vertical" H 8700 3400 50  0001 C CNN
+F 3 "~" H 8700 3400 50  0001 C CNN
+	1    8700 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L gkl_power:GND #PWR014
+U 1 1 61EEF251
+P 8400 3600
+F 0 "#PWR014" H 8400 3350 50  0001 C CNN
+F 1 "GND" H 8403 3474 50  0000 C CNN
+F 2 "" H 8300 3250 50  0001 C CNN
+F 3 "" H 8400 3600 50  0001 C CNN
+	1    8400 3600
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	8500 3500 8400 3500
+Wire Wire Line
+	8400 3500 8400 3600
+Text GLabel 9300 3500 2    50   UnSpc ~ 0
+P3.3V
+Wire Wire Line
+	9000 3500 9300 3500
+Text GLabel 8400 3300 0    50   Input ~ 0
+PMOD1
+Text GLabel 9100 3300 2    50   Input ~ 0
+PMOD2
+Text GLabel 8400 3400 0    50   Input ~ 0
+PMOD3
+Text GLabel 9100 3400 2    50   Input ~ 0
+PMOD4
+Wire Wire Line
+	8400 3300 8500 3300
+Wire Wire Line
+	8400 3400 8500 3400
+Wire Wire Line
+	9000 3300 9100 3300
+Wire Wire Line
+	9000 3400 9100 3400
 $EndSCHEMATC
