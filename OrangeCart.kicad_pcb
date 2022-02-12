@@ -1472,10 +1472,10 @@
     (pad "" np_thru_hole circle (at 2.89 -2.6 90) (size 0.65 0.65) (drill 0.65) (layers *.Cu *.Mask))
     (pad S1 thru_hole oval (at 4.32 1.05 90) (size 1 1.6) (drill oval 0.6 1.2) (layers *.Cu *.Mask)
       (net 1 GND))
-    (model ${KIPRJMOD}/packages3d/USB4105-GF-A.stp
-      (offset (xyz 0 -3.7 -0.05))
+    (model ${KIPRJMOD}/packages3d/TYPE-C-31-M-12.wrl
+      (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
-      (rotate (xyz -90 0 0))
+      (rotate (xyz 0 0 0))
     )
   )
 
