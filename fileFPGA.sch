@@ -105,8 +105,6 @@ Wire Wire Line
 	8800 1100 8950 1100
 Connection ~ 8950 1100
 Wire Wire Line
-	8950 1100 8950 1200
-Wire Wire Line
 	8950 1200 8800 1200
 Connection ~ 8950 1200
 Wire Wire Line
@@ -129,12 +127,10 @@ F 3 "" H 8950 1450 50  0001 C CNN
 	1    8950 1450
 	-1   0    0    -1  
 $EndComp
-Text GLabel 9100 900  2    50   UnSpc ~ 0
+Text GLabel 9250 900  2    50   UnSpc ~ 0
 P3.3V
 Text GLabel 8300 900  0    60   Input ~ 0
 JTAG_TMS
-Text GLabel 8300 1300 0    60   Input ~ 0
-FPGA_RESET
 Text GLabel 7200 1000 0    60   Input ~ 0
 JTAG_TCK
 Text GLabel 8300 1200 0    60   Input ~ 0
@@ -181,23 +177,6 @@ Wire Wire Line
 	5150 7250 5150 7150
 Wire Wire Line
 	5150 7150 5200 7150
-$Comp
-L Device:R R?
-U 1 1 5D593C8A
-P 7400 1200
-AR Path="/5ABC9A87/5D593C8A" Ref="R?"  Part="1" 
-AR Path="/5AB8ACB7/5D593C8A" Ref="R27"  Part="1" 
-F 0 "R27" H 7330 1154 50  0000 R CNN
-F 1 "4.7k" H 7330 1245 50  0000 R CNN
-F 2 "Resistor_SMD:R_0201_0603Metric" V 7330 1200 50  0001 C CNN
-F 3 "~" H 7400 1200 50  0001 C CNN
-F 4 "‎Yageo‎" H 7400 1200 50  0001 C CNN "Mfg"
-F 5 "RC0201FR-074K7L" H 7400 1200 50  0001 C CNN "PN"
-F 6 "603-RC0201FR-074K7L" H 7400 1200 50  0001 C CNN "Mouser Part No"
-F 7 "0,11" H 7400 1200 50  0001 C CNN "Pricing (EUR)"
-	1    7400 1200
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	7400 1350 7400 1400
 $Comp
@@ -1088,4 +1067,58 @@ Text GLabel 9100 4550 2    50   Input ~ 0
 PMOD4
 Text GLabel 7300 4550 0    50   Input ~ 0
 PMOD2
+Wire Wire Line
+	9100 1000 9100 900 
+Connection ~ 9100 900 
+Wire Wire Line
+	9100 900  9250 900 
+$Comp
+L Device:R R?
+U 1 1 5D593C8A
+P 7400 1200
+AR Path="/5ABC9A87/5D593C8A" Ref="R?"  Part="1" 
+AR Path="/5AB8ACB7/5D593C8A" Ref="R27"  Part="1" 
+F 0 "R27" H 7330 1154 50  0000 R CNN
+F 1 "4.7k" H 7330 1245 50  0000 R CNN
+F 2 "Resistor_SMD:R_0201_0603Metric" V 7330 1200 50  0001 C CNN
+F 3 "~" H 7400 1200 50  0001 C CNN
+F 4 "‎Yageo‎" H 7400 1200 50  0001 C CNN "Mfg"
+F 5 "RC0201FR-074K7L" H 7400 1200 50  0001 C CNN "PN"
+F 6 "603-RC0201FR-074K7L" H 7400 1200 50  0001 C CNN "Mouser Part No"
+F 7 "0,11" H 7400 1200 50  0001 C CNN "Pricing (EUR)"
+	1    7400 1200
+	1    0    0    1   
+$EndComp
+Text GLabel 8200 1300 0    60   Input ~ 0
+FPGA_RESET
+Wire Wire Line
+	8200 1300 8250 1300
+Wire Wire Line
+	9100 1300 9100 1700
+Wire Wire Line
+	9100 1700 8250 1700
+Wire Wire Line
+	8250 1700 8250 1300
+Connection ~ 8250 1300
+Wire Wire Line
+	8250 1300 8300 1300
+$Comp
+L Device:R R?
+U 1 1 62542CB7
+P 9100 1150
+AR Path="/5D1738DB/62542CB7" Ref="R?"  Part="1" 
+AR Path="/5AB8ACB7/62542CB7" Ref="R34"  Part="1" 
+F 0 "R34" H 8950 1100 50  0000 C CNN
+F 1 "100k" H 8950 1200 50  0000 C CNN
+F 2 "Resistor_SMD:R_0201_0603Metric" V 9030 1150 50  0001 C CNN
+F 3 "~" H 9100 1150 50  0001 C CNN
+F 4 "‎Yageo‎" H 9100 1150 50  0001 C CNN "Mfg"
+F 5 "RC0201FR-07100KL" H 9100 1150 50  0001 C CNN "PN"
+F 6 "603-RC0201FR-07100KL / 667-ERJ-1GNF1003C" H 9100 1150 50  0001 C CNN "Mouser Part No"
+F 7 "0,11" H 9100 1150 50  0001 C CNN "Pricing (EUR)"
+	1    9100 1150
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8950 1100 8950 1200
 $EndSCHEMATC
