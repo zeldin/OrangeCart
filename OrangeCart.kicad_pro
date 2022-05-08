@@ -55,24 +55,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        "silk_over_copper|107940000|128810000|00000000-0000-0000-0000-0000600469b1|ef94502b-f22d-4da7-a17f-4100090b03a1",
-        "silk_over_copper|107940000|128810000|00000000-0000-0000-0000-0000600469b1|fe6d9604-2924-4f38-950b-a31e8a281973",
-        "silk_over_copper|108575000|120682000|00000000-0000-0000-0000-0000600469b5|58cc7831-f944-4d33-8c61-2fd5bebc61e0",
-        "silk_over_copper|108575000|120682000|00000000-0000-0000-0000-0000600469b5|59f60168-cced-43c9-aaa5-41a1a8a2f631",
-        "silk_over_copper|108575000|120682000|00000000-0000-0000-0000-0000600469b5|8e697b96-cf4c-43ef-b321-8c2422b088bf",
-        "silk_over_copper|108575000|120682000|00000000-0000-0000-0000-0000600469b5|9de304ba-fba7-4896-b969-9d87a3522d74",
-        "silk_over_copper|111000000|86600000|00000000-0000-0000-0000-0000604d4862|88002554-c459-46e5-8b22-6ea6fe07fd4c",
-        "silk_over_copper|111000000|96000000|00000000-0000-0000-0000-0000604d4862|53e34696-241f-47e5-a477-f469335c8a61",
-        "silk_over_copper|51171000|120682000|00000000-0000-0000-0000-000060046b28|74855e0d-40e4-4940-a544-edae9207b2ea",
-        "silk_over_copper|51171000|120682000|00000000-0000-0000-0000-000060046b28|f203116d-f256-4611-a03e-9536bbedaf2f",
-        "silk_over_copper|51425000|120682000|00000000-0000-0000-0000-0000600469b4|165f4d8d-26a9-4cf2-a8d6-9936cd983be4",
-        "silk_over_copper|51425000|120682000|00000000-0000-0000-0000-0000600469b4|d68dca9b-48b3-498b-9b5f-3b3838250f82",
-        "silk_over_copper|52060000|128810000|00000000-0000-0000-0000-0000600469b3|082aed28-f9e8-49e7-96ee-b5aa9f0319c7",
-        "silk_over_copper|52060000|128810000|00000000-0000-0000-0000-0000600469b3|10b20c6b-8045-46d1-a965-0d7dd9a1b5fa",
-        "silk_over_copper|52695000|129445000|00000000-0000-0000-0000-0000600469b2|92a23ed4-a5ea-4cea-bc33-0a83191a0d32",
-        "silk_over_copper|52695000|129445000|00000000-0000-0000-0000-0000600469b2|f6a3288e-9575-42bb-af05-a920d59aded8"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 2
@@ -103,7 +86,7 @@
         "padstack": "error",
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
-        "silk_over_copper": "warning",
+        "silk_over_copper": "ignore",
         "silk_overlap": "warning",
         "skew_out_of_range": "error",
         "through_hole_pad_without_hole": "error",
@@ -358,7 +341,7 @@
       "global_label_dangling": "warning",
       "hier_label_mismatch": "error",
       "label_dangling": "error",
-      "lib_symbol_issues": "warning",
+      "lib_symbol_issues": "ignore",
       "multiple_net_names": "warning",
       "net_not_bus_member": "warning",
       "no_connect_connected": "warning",
