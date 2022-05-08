@@ -1,7 +1,0 @@
-(fp_lib_table
-  (lib (name icomp)(type KiCad)(uri ${KIPRJMOD}/icomp.pretty)(options "")(descr ""))
-  (lib (name RETRO_Innovations)(type KiCad)(uri ${KIPRJMOD}/RETRO_Innovations.pretty)(options "")(descr ""))
-  (lib (name lattice)(type KiCad)(uri ${KIPRJMOD}/lattice.pretty)(options "")(descr ""))
-  (lib (name TE)(type KiCad)(uri ${KIPRJMOD}/TE.pretty)(options "")(descr ""))
-  (lib (name molex)(type KiCad)(uri ${KIPRJMOD}/molex.pretty)(options "")(descr ""))
-)
