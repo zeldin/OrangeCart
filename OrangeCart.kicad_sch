@@ -263,9 +263,6 @@
     (path "/00000000-0000-0000-0000-00005d1738db/e57aa1b8-bc33-49c4-97d2-8427e1bd4bc8"
       (reference "#FLG0102") (unit 1) (value "PWR_FLAG") (footprint "")
     )
-    (path "/00000000-0000-0000-0000-00005d1738db/2a619d77-1710-482b-9e0c-c582a88dca4d"
-      (reference "#FLG0103") (unit 1) (value "PWR_FLAG") (footprint "")
-    )
     (path "/00000000-0000-0000-0000-00005d1738db/00000000-0000-0000-0000-000060a93848"
       (reference "#FLG0104") (unit 1) (value "PWR_FLAG") (footprint "")
     )
@@ -332,20 +329,11 @@
     (path "/00000000-0000-0000-0000-00005ab8acb7/00000000-0000-0000-0000-00005b0ace72"
       (reference "#PWR0101") (unit 1) (value "GND") (footprint "")
     )
-    (path "/00000000-0000-0000-0000-00005d1738db/00000000-0000-0000-0000-00005d3d68d8"
-      (reference "#PWR0102") (unit 1) (value "GND") (footprint "")
-    )
     (path "/00000000-0000-0000-0000-0000600fa0a1/00000000-0000-0000-0000-00006097b61f"
       (reference "#PWR0103") (unit 1) (value "GND") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00005ab8acb7/00000000-0000-0000-0000-00005b1207af"
       (reference "#PWR0104") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-00005d1738db/00000000-0000-0000-0000-00005d3d6917"
-      (reference "#PWR0105") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-00005d1738db/00000000-0000-0000-0000-00005d3d6921"
-      (reference "#PWR0106") (unit 1) (value "GND") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00005ab8acb7/00000000-0000-0000-0000-00005d3a2d91"
       (reference "#PWR0107") (unit 1) (value "GND") (footprint "")
@@ -485,20 +473,11 @@
     (path "/00000000-0000-0000-0000-00005d1738db/00000000-0000-0000-0000-00005d22fc1a"
       (reference "C12") (unit 1) (value "4.7uF") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
-    (path "/00000000-0000-0000-0000-00005d1738db/00000000-0000-0000-0000-00005d3d6941"
-      (reference "C14") (unit 1) (value "10nF") (footprint "Capacitor_SMD:C_0201_0603Metric")
-    )
     (path "/00000000-0000-0000-0000-00005d1738db/00000000-0000-0000-0000-00005d42711a"
       (reference "C15") (unit 1) (value "10uF") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
-    (path "/00000000-0000-0000-0000-00005d1738db/00000000-0000-0000-0000-00005d3d68c7"
-      (reference "C16") (unit 1) (value "10uF") (footprint "Capacitor_SMD:C_0402_1005Metric")
-    )
     (path "/00000000-0000-0000-0000-00005d1738db/00000000-0000-0000-0000-00005d427139"
       (reference "C17") (unit 1) (value "10uF") (footprint "Capacitor_SMD:C_0402_1005Metric")
-    )
-    (path "/00000000-0000-0000-0000-00005d1738db/00000000-0000-0000-0000-00005d3d68e6"
-      (reference "C18") (unit 1) (value "10uF") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-00005abd38f2/00000000-0000-0000-0000-00005d77dfc0"
       (reference "C21") (unit 1) (value "1uF") (footprint "Capacitor_SMD:C_0402_1005Metric")
@@ -677,9 +656,6 @@
     (path "/00000000-0000-0000-0000-00005d1738db/00000000-0000-0000-0000-00005d1875bd"
       (reference "L2") (unit 1) (value "0.47uH") (footprint "Inductor_SMD:L_0805_2012Metric")
     )
-    (path "/00000000-0000-0000-0000-00005d1738db/00000000-0000-0000-0000-00005d3d6883"
-      (reference "L3") (unit 1) (value "0.47uH") (footprint "Inductor_SMD:L_0805_2012Metric")
-    )
     (path "/00000000-0000-0000-0000-00005ab8acb7/00000000-0000-0000-0000-00005d75a2df"
       (reference "OSC1") (unit 1) (value "ECS-2520MV-480-BN-TR") (footprint "Oscillator:Oscillator_SMD_ECS_2520MV-xxx-xx-4Pin_2.5x2.0mm")
     )
@@ -722,20 +698,11 @@
     (path "/00000000-0000-0000-0000-00005d1738db/00000000-0000-0000-0000-00005d42715d"
       (reference "R13") (unit 1) (value "100k") (footprint "Resistor_SMD:R_0201_0603Metric")
     )
-    (path "/00000000-0000-0000-0000-00005d1738db/00000000-0000-0000-0000-00005d3d690a"
-      (reference "R14") (unit 1) (value "100k") (footprint "Resistor_SMD:R_0201_0603Metric")
-    )
     (path "/00000000-0000-0000-0000-00005d1738db/00000000-0000-0000-0000-00005d4270e0"
       (reference "R15") (unit 1) (value "267k") (footprint "Resistor_SMD:R_0201_0603Metric")
     )
-    (path "/00000000-0000-0000-0000-00005d1738db/00000000-0000-0000-0000-00005d3d688d"
-      (reference "R16") (unit 1) (value "76.8k") (footprint "Resistor_SMD:R_0201_0603Metric")
-    )
     (path "/00000000-0000-0000-0000-00005d1738db/00000000-0000-0000-0000-00005d4270ea"
       (reference "R17") (unit 1) (value "100k") (footprint "Resistor_SMD:R_0201_0603Metric")
-    )
-    (path "/00000000-0000-0000-0000-00005d1738db/00000000-0000-0000-0000-00005d3d6897"
-      (reference "R18") (unit 1) (value "100k") (footprint "Resistor_SMD:R_0201_0603Metric")
     )
     (path "/00000000-0000-0000-0000-0000600fa0a1/00000000-0000-0000-0000-00005e4e3a31"
       (reference "R19") (unit 1) (value "4.7k") (footprint "Resistor_SMD:R_0402_1005Metric")
@@ -818,9 +785,6 @@
     (path "/00000000-0000-0000-0000-00005abc9a87/00000000-0000-0000-0000-00005d419cca"
       (reference "TP30") (unit 1) (value "SMD_TP") (footprint "gkl_misc:TestPoint_Pad_D0.5mm")
     )
-    (path "/00000000-0000-0000-0000-00005abc9a87/00000000-0000-0000-0000-00005d41439b"
-      (reference "TP31") (unit 1) (value "SMD_TP") (footprint "gkl_misc:TestPoint_Pad_D0.5mm")
-    )
     (path "/00000000-0000-0000-0000-00005abc9a87/00000000-0000-0000-0000-00005d4143a5"
       (reference "TP32") (unit 1) (value "SMD_TP") (footprint "gkl_misc:TestPoint_Pad_D0.5mm")
     )
@@ -865,9 +829,6 @@
     )
     (path "/00000000-0000-0000-0000-00005ab8acb7/00000000-0000-0000-0000-00005d5d6375"
       (reference "U6") (unit 1) (value "W25Q128JVP") (footprint "Package_SON:WSON-8-1EP_6x5mm_P1.27mm_EP3.4x4mm")
-    )
-    (path "/00000000-0000-0000-0000-00005d1738db/00000000-0000-0000-0000-00005d3d6879"
-      (reference "U7") (unit 1) (value "FAN53541") (footprint "Package_CSP:WLCSP-20_1.934x2.434mm_Layout4x5_P0.4mm")
     )
     (path "/00000000-0000-0000-0000-0000600fa0a1/00000000-0000-0000-0000-00005e418120"
       (reference "U8") (unit 1) (value "74LVC1G06") (footprint "Package_TO_SOT_SMD:SOT-23-5")
