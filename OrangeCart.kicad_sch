@@ -329,6 +329,9 @@
     (path "/00000000-0000-0000-0000-00005ab8acb7/00000000-0000-0000-0000-00005b0ace72"
       (reference "#PWR0101") (unit 1) (value "GND") (footprint "")
     )
+    (path "/00000000-0000-0000-0000-0000600fa0a1/64684743-ed53-4910-beb9-ab99f1b9ae21"
+      (reference "#PWR0102") (unit 1) (value "GND") (footprint "")
+    )
     (path "/00000000-0000-0000-0000-0000600fa0a1/00000000-0000-0000-0000-00006097b61f"
       (reference "#PWR0103") (unit 1) (value "GND") (footprint "")
     )
@@ -857,14 +860,23 @@
     (path "/00000000-0000-0000-0000-0000600fa0a1/00000000-0000-0000-0000-00006014d8a5"
       (reference "U11") (unit 6) (value "74AHCV17A") (footprint "Package_SO:TSSOP-14_4.4x5mm_P0.65mm")
     )
-    (path "/00000000-0000-0000-0000-0000600fa0a1/00000000-0000-0000-0000-0000601c200c"
-      (reference "U12") (unit 1) (value "74LVC3G17") (footprint "Package_SO:TSSOP-8_3x3mm_P0.65mm")
+    (path "/00000000-0000-0000-0000-0000600fa0a1/e9733d13-25e2-431d-a9f8-4307b3762d51"
+      (reference "U12") (unit 1) (value "74AHCV17A") (footprint "Package_SO:TSSOP-14_4.4x5mm_P0.65mm")
     )
-    (path "/00000000-0000-0000-0000-0000600fa0a1/00000000-0000-0000-0000-0000601c00cd"
-      (reference "U12") (unit 2) (value "74LVC3G17") (footprint "Package_SO:TSSOP-8_3x3mm_P0.65mm")
+    (path "/00000000-0000-0000-0000-0000600fa0a1/d6712487-040b-4748-ab1c-bb8c061a9e6b"
+      (reference "U12") (unit 2) (value "74AHCV17A") (footprint "Package_SO:TSSOP-14_4.4x5mm_P0.65mm")
     )
-    (path "/00000000-0000-0000-0000-0000600fa0a1/00000000-0000-0000-0000-00006018857a"
-      (reference "U12") (unit 3) (value "74LVC3G17") (footprint "Package_SO:TSSOP-8_3x3mm_P0.65mm")
+    (path "/00000000-0000-0000-0000-0000600fa0a1/64865b8d-d516-4da5-88f1-8d40bf9091d6"
+      (reference "U12") (unit 3) (value "74AHCV17A") (footprint "Package_SO:TSSOP-14_4.4x5mm_P0.65mm")
+    )
+    (path "/00000000-0000-0000-0000-0000600fa0a1/3595f7ba-4f65-45ef-b85c-1b270f239f90"
+      (reference "U12") (unit 4) (value "74AHCV17A") (footprint "Package_SO:TSSOP-14_4.4x5mm_P0.65mm")
+    )
+    (path "/00000000-0000-0000-0000-0000600fa0a1/ee52e3ba-b9af-4e3c-a306-67d2c4f99038"
+      (reference "U12") (unit 5) (value "74AHCV17A") (footprint "Package_SO:TSSOP-14_4.4x5mm_P0.65mm")
+    )
+    (path "/00000000-0000-0000-0000-0000600fa0a1/894e8271-81e6-43e7-990f-1e367cf0c6a5"
+      (reference "U12") (unit 6) (value "74AHCV17A") (footprint "Package_SO:TSSOP-14_4.4x5mm_P0.65mm")
     )
     (path "/00000000-0000-0000-0000-0000600fa0a1/00000000-0000-0000-0000-00005e417ffa"
       (reference "U13") (unit 1) (value "SN74LVC8T245") (footprint "Package_SO:TSSOP-24_4.4x7.8mm_P0.65mm")
