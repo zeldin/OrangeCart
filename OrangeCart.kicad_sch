@@ -843,7 +843,7 @@
       (reference "U3") (unit 4) (value "LFE5U-25F-6BG256C") (footprint "lattice:LFE5U-25F-8BG256C")
     )
     (path "/00000000-0000-0000-0000-00005abd38f2/00000000-0000-0000-0000-00005f6394c8"
-      (reference "U4") (unit 1) (value "S70KS1281") (footprint "gkl_housings_bga:T-PBGA-24_6.0x8.0mm_Layout5x5_P1.0mm")
+      (reference "U4") (unit 1) (value "W957A8MFYA") (footprint "gkl_housings_bga:T-PBGA-24_6.0x8.0mm_Layout5x5_P1.0mm")
     )
     (path "/00000000-0000-0000-0000-0000600fa0a1/00000000-0000-0000-0000-00005e4c2a22"
       (reference "U5") (unit 1) (value "74LVC06A") (footprint "Package_SO:TSSOP-14_4.4x5mm_P0.65mm")

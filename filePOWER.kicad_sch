@@ -708,7 +708,6 @@
     )
   )
 
-
   (junction (at 250.19 43.18) (diameter 0) (color 0 0 0 0)
     (uuid 00c9c1c9-df78-4bf8-a378-9edee7dafbe3)
   )
@@ -2485,7 +2484,7 @@
     (property "Reference" "#PWR0102" (id 0) (at 262.89 109.22 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "" (id 1) (at 262.9662 106.0704 0))
+    (property "Value" "GND" (id 1) (at 262.9662 106.0704 0))
     (property "Footprint" "" (id 2) (at 260.35 111.76 0)
       (effects (font (size 1.27 1.27)) hide)
     )

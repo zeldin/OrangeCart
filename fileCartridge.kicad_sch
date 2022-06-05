@@ -1281,7 +1281,6 @@
   )
 
   (bus_alias "A_HIGH" (members "8" "9" "10" "11" "12" "13" "14" "15"))
-
   (junction (at 115.57 34.29) (diameter 0) (color 0 0 0 0)
     (uuid 01106a52-6b7d-40fd-b165-c927be1f6a1d)
   )
