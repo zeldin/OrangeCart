@@ -1276,7 +1276,7 @@
     (property "Footprint" "gkl_housings_bga:T-PBGA-24_6.0x8.0mm_Layout5x5_P1.0mm" (id 2) (at 58.42 74.93 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "https://www.cypress.com/file/183506/download" (id 3) (at 58.42 74.93 0)
+    (property "Datasheet" "https://www.winbond.com/resource-files/W957x8MFYA_128Mb_HyperRAM_TFBGA24_DDP_datasheet_A01-003_20211208.pdf" (id 3) (at 58.42 74.93 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Mfg" "Winbond" (id 4) (at 58.42 74.93 0)
