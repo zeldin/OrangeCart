@@ -4853,11 +4853,11 @@
     (property "Sheetname" "sheetCartridge")
     (path "/00000000-0000-0000-0000-0000600fa0a1/ee52e3ba-b9af-4e3c-a306-67d2c4f99038")
     (attr smd)
-    (fp_text reference "U12" (at 0 -3.45 90) (layer "F.SilkS")
+    (fp_text reference "U12" (at 0 -3.45 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp a3439f43-ae2f-4cba-9da5-ed29ee5feebd)
     )
-    (fp_text value "74AHCV17A" (at 0 3.45 90) (layer "F.Fab")
+    (fp_text value "74AHCV17A" (at 0 3.45 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 78fe652c-2f23-402d-b121-85ced4346275)
     )
