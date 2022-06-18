@@ -858,7 +858,7 @@
       (reference "U8") (unit 1) (value "74LVC1G06") (footprint "Package_TO_SOT_SMD:SOT-23-5")
     )
     (path "/00000000-0000-0000-0000-0000600fa0a1/00000000-0000-0000-0000-00005e417fde"
-      (reference "U9") (unit 1) (value "SN74LVC8T245") (footprint "Package_SO:TSSOP-24_4.4x7.8mm_P0.65mm")
+      (reference "U9") (unit 1) (value "74LVCH8T245") (footprint "Package_SO:TSSOP-24_4.4x7.8mm_P0.65mm")
     )
     (path "/00000000-0000-0000-0000-00005d1738db/00000000-0000-0000-0000-00005d75643e"
       (reference "U10") (unit 1) (value "NCP115-2.5") (footprint "Package_SON:Texas_X2SON-4_1x1mm_P0.65mm")
@@ -900,10 +900,10 @@
       (reference "U12") (unit 6) (value "74AHCV17A") (footprint "Package_SO:TSSOP-14_4.4x5mm_P0.65mm")
     )
     (path "/00000000-0000-0000-0000-0000600fa0a1/00000000-0000-0000-0000-00005e417ffa"
-      (reference "U13") (unit 1) (value "SN74LVC8T245") (footprint "Package_SO:TSSOP-24_4.4x7.8mm_P0.65mm")
+      (reference "U13") (unit 1) (value "74LVCH8T245") (footprint "Package_SO:TSSOP-24_4.4x7.8mm_P0.65mm")
     )
     (path "/00000000-0000-0000-0000-0000600fa0a1/00000000-0000-0000-0000-00005e417fe4"
-      (reference "U14") (unit 1) (value "SN74LVC8T245") (footprint "Package_SO:TSSOP-24_4.4x7.8mm_P0.65mm")
+      (reference "U14") (unit 1) (value "74LVCH8T245") (footprint "Package_SO:TSSOP-24_4.4x7.8mm_P0.65mm")
     )
     (path "/00000000-0000-0000-0000-0000600fa0a1/00000000-0000-0000-0000-00005e417fc6"
       (reference "X1") (unit 1) (value "EXPANSION_PORT_C64_EDGE") (footprint "RETRO_Innovations:MA100-22-2")
