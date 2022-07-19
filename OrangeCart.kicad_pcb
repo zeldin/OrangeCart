@@ -10673,7 +10673,7 @@
   (gr_arc (start 50.671 105.08) (mid 51.024553 105.226447) (end 51.171 105.58) (layer "Edge.Cuts") (width 0.05) (tstamp 752fa345-d8be-4e99-aad1-e88671f99643))
   (gr_line (start 46.5 96.07) (end 48.5 96.07) (layer "Edge.Cuts") (width 0.05) (tstamp b2944857-047d-4655-a00b-49e658220448))
   (gr_line (start 48.5 81.2) (end 46.5 81.2) (layer "Edge.Cuts") (width 0.05) (tstamp d92eb7fd-0303-4aaa-b39e-7bf35dbafd2d))
-  (gr_text "v1.0" (at 101.36 114.09) (layer "B.SilkS") (tstamp b05af61d-3c1d-44cf-aea2-61fd169c9d1a)
+  (gr_text "v1.2" (at 101.36 114.09) (layer "B.SilkS") (tstamp b05af61d-3c1d-44cf-aea2-61fd169c9d1a)
     (effects (font (size 1.75 1.75) (thickness 0.25)) (justify mirror))
   )
   (gr_text "Bank 1" (at 74.4 94.1) (layer "Cmts.User") (tstamp 00000000-0000-0000-0000-000060a57a15)
