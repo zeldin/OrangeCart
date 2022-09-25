@@ -17,6 +17,9 @@ The main features are:
 Usage
 -----
 
+For full usage instructions and other detailed information, please refer to
+[the wiki][wiki].
+
 The cartridge can be powered from the expansion port, from the USB connector,
 or both at once (back-current protection diodes are present at each power
 input).
@@ -32,3 +35,5 @@ Example bitstreams
 - [RVCop64](https://github.com/zeldin/RVCop64)
 - [super-reu](https://github.com/zeldin/super-reu)
 
+
+[wiki]: https://github.com/zeldin/OrangeCart/wiki
